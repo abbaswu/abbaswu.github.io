@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jifeng Wu&#39;s Personal Website</title>
+  
+  <subtitle>Jifeng Wu&#39;s Personal Website</subtitle>
+  <link href="https://abbaswu.github.io/project/atom.xml" rel="self"/>
+  
+  <link href="https://abbaswu.github.io/project/"/>
+  <updated>2022-10-30T19:19:16.192Z</updated>
+  <id>https://abbaswu.github.io/project/</id>
+  
+  <author>
+    <name>Jifeng Wu</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Various Solutions for Different Types of Reverse Proxying</title>
+    <link href="https://abbaswu.github.io/project/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/"/>
+    <id>https://abbaswu.github.io/project/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/</id>
+    <published>2022-10-30T07:00:00.000Z</published>
+    <updated>2022-10-30T19:19:16.192Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Various-Solutions-for-Different-Types-of-Reverse-Proxying"><a href="#Various-Solutions-for-Different-Types-of-Reverse-Proxying" class="headerlink" title="Various Solutions for Different Types of Reverse Proxying"></a>Various Solutions for Different Types of Reverse Proxying</h1><p>There are some situations in which we have to expose a locally running web service to the Internet. This is know as Reverse Proxying. Depending on the situation in hand, there are multiple ways to do this:</p><h2 id="Server-with-Public-IP-Available"><a href="#Server-with-Public-IP-Available" class="headerlink" title="Server with Public IP Available"></a>Server with Public IP Available</h2><p>In this case, the Server is also known as a Jump Server.</p><h3 id="Client-Accessible-from-Server"><a href="#Client-Accessible-from-Server" class="headerlink" title="Client Accessible from Server"></a>Client Accessible from Server</h3><p>Run a port-forwarding tool such as <code>socat</code> on the Server.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">socat TCP-LISTEN:&lt;Port the Server listens on&gt;,fork,reuseaddr TCP:&lt;IP address of the Client&gt;:&lt;Port of the Service on the Client&gt;<br></code></pre></td></tr></table></figure><h3 id="Client-Inaccessible-from-Server"><a href="#Client-Inaccessible-from-Server" class="headerlink" title="Client Inaccessible from Server"></a>Client Inaccessible from Server</h3><p>Use <a href="https://github.com/rofl0r/nat-tunnel">nat-tunnel</a> on both the Server and the Client.</p><p>Or, use <a href="https://jfrog.com/connect/post/reverse-ssh-tunneling-from-start-to-end/">Reverse SSH Tunneling</a> on the Client.</p><h4 id="Reverse-SSH-Tunneling"><a href="#Reverse-SSH-Tunneling" class="headerlink" title="Reverse SSH Tunneling"></a>Reverse SSH Tunneling</h4><h4 id="Before-Tunneling"><a href="#Before-Tunneling" class="headerlink" title="Before Tunneling"></a>Before Tunneling</h4><p>On the Server:</p><ul><li>Update the sshd config file (<code>/etc/ssh/sshd_config</code>). Set <code>GatewayPorts</code> to <code>yes</code>.</li><li>Restart the SSH Service.</li><li>Make sure the Port the Server listens on allows Inbound Traffic.</li></ul><h4 id="To-Tunnel"><a href="#To-Tunnel" class="headerlink" title="To Tunnel"></a>To Tunnel</h4><p>On the Client:</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs sh">ssh [-f] [-N] [-T] -R &lt;Port the Server listens on&gt;:localhost:&lt;Port of the Service on the Client&gt; [How you connect to the Server (e.g. `-i key-pair.pem &lt;username&gt;@&lt;domain&gt;`)]<br></code></pre></td></tr></table></figure><ul><li><code>-f</code> tells the SSH to background itself after it authenticates, saving you time by not having to run something on the remote server for the tunnel to remain alive.</li><li><code>-N</code> if all you need is to create a tunnel without running any remote commands then include this option to save resources.</li><li><code>-T</code> useful to disable pseudo-tty allocation, which is fitting if you are not trying to create an interactive shell.</li><li><code>-R</code> tells the tunnel to answer on the remote side.</li></ul><h2 id="Server-with-Public-IP-Unavailable"><a href="#Server-with-Public-IP-Unavailable" class="headerlink" title="Server with Public IP Unavailable"></a>Server with Public IP Unavailable</h2><p>Use a commercial service such as <code>ngrok</code> on the Client.</p><p>References:</p><ul><li><a href="https://en.wikipedia.org/wiki/Reverse_proxy">https://en.wikipedia.org/wiki/Reverse_proxy</a></li><li><a href="https://www.kvm.la/1328.html">https://www.kvm.la/1328.html</a></li><li><a href="https://blog.csdn.net/weixin_35867652/article/details/104362302">https://blog.csdn.net/weixin_35867652/article/details/104362302</a></li><li><a href="https://www.hostinger.com/tutorials/how-to-set-up-nginx-reverse-proxy/">https://www.hostinger.com/tutorials/how-to-set-up-nginx-reverse-proxy/</a></li><li><a href="https://stevessmarthomeguide.com/understanding-port-forwarding/">https://stevessmarthomeguide.com/understanding-port-forwarding/</a></li><li><a href="https://jfrog.com/connect/post/reverse-ssh-tunneling-from-start-to-end/">https://jfrog.com/connect/post/reverse-ssh-tunneling-from-start-to-end/</a></li><li><a href="https://linuxhint.com/ssh-port-forwarding-linux/">https://linuxhint.com/ssh-port-forwarding-linux/</a></li><li><a href="https://www.ssh.com/academy/ssh/tunneling-example">https://www.ssh.com/academy/ssh/tunneling-example</a></li><li><a href="https://superuser.com/questions/1408427/remote-port-forwarding-through-a-jump-server">https://superuser.com/questions/1408427/remote-port-forwarding-through-a-jump-server</a></li><li><a href="https://unix.stackexchange.com/questions/436290/single-step-ssh-port-forwarding-not-working-but-only-works-when-ssh-port-forward?rq=1&amp;newreg=def5dfc9fb43466d8685fd7639eb17cc">https://unix.stackexchange.com/questions/436290/single-step-ssh-port-forwarding-not-working-but-only-works-when-ssh-port-forward?rq=1&amp;newreg=def5dfc9fb43466d8685fd7639eb17cc</a></li><li><a href="https://www.opensourceforu.com/2021/09/how-to-do-reverse-tunnelling-with-the-amazon-ec2-instance/">https://www.opensourceforu.com/2021/09/how-to-do-reverse-tunnelling-with-the-amazon-ec2-instance/</a></li><li><a href="https://superuser.com/questions/1194105/ssh-troubleshooting-remote-port-forwarding-failed-for-listen-port-errors">https://superuser.com/questions/1194105/ssh-troubleshooting-remote-port-forwarding-failed-for-listen-port-errors</a></li><li><a href="https://docs.hevodata.com/getting-started/connection-options/connecting-through-reverse-ssh/">https://docs.hevodata.com/getting-started/connection-options/connecting-through-reverse-ssh/</a></li><li><a href="https://www.youtube.com/watch?v=TZ6W9Hi9YJw">https://www.youtube.com/watch?v=TZ6W9Hi9YJw</a></li><li><a href="https://blog.devolutions.net/2017/03/what-is-reverse-ssh-port-forwarding/">https://blog.devolutions.net/2017/03/what-is-reverse-ssh-port-forwarding/</a></li><li><a href="https://chenhuijing.com/blog/tunnelling-services-for-exposing-localhost-to-the-web/">https://chenhuijing.com/blog/tunnelling-services-for-exposing-localhost-to-the-web/</a></li><li><a href="https://johackim.com/how-to-expose-local-server-behind-firewall">https://johackim.com/how-to-expose-local-server-behind-firewall</a></li><li><a href="https://gabrieltanner.org/blog/port-forwarding-frp/">https://gabrieltanner.org/blog/port-forwarding-frp/</a></li><li><a href="https://www.techiediaries.com/public-localhost/">https://www.techiediaries.com/public-localhost/</a></li><li><a href="https://superuser.com/questions/121435/is-it-possible-to-host-a-web-server-from-behind-a-nat/1360660">https://superuser.com/questions/121435/is-it-possible-to-host-a-web-server-from-behind-a-nat/1360660</a></li><li><a href="https://medium.com/tech-learnings/how-to-expose-a-local-server-to-the-internet-without-any-additional-tools-ae49e6b8fe93">https://medium.com/tech-learnings/how-to-expose-a-local-server-to-the-internet-without-any-additional-tools-ae49e6b8fe93</a></li><li><a href="https://serverfault.com/questions/282959/how-do-i-reach-my-internal-server-on-the-external-ip">https://serverfault.com/questions/282959/how-do-i-reach-my-internal-server-on-the-external-ip</a></li><li><a href="https://superuser.com/questions/624925/how-to-access-internal-valid-ip-through-internet">https://superuser.com/questions/624925/how-to-access-internal-valid-ip-through-internet</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Various-Solutions-for-Different-Types-of-Reverse-Proxying&quot;&gt;&lt;a href=&quot;#Various-Solutions-for-Different-Types-of-Reverse-Proxying&quot; clas</summary>
+      
+    
+    
+    
+    <category term="Code" scheme="https://abbaswu.github.io/project/categories/Code/"/>
+    
+    <category term="Computer Networking" scheme="https://abbaswu.github.io/project/categories/Code/Computer-Networking/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Personal Website Design Considerations</title>
+    <link href="https://abbaswu.github.io/project/2022/10/20/Personal-Website-Design-Considerations/"/>
+    <id>https://abbaswu.github.io/project/2022/10/20/Personal-Website-Design-Considerations/</id>
+    <published>2022-10-20T07:00:00.000Z</published>
+    <updated>2022-10-30T04:04:46.452Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hosting"><a href="#Hosting" class="headerlink" title="Hosting"></a>Hosting</h1><p>We host our personal website on <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">GitHub Pages</a>, a static site hosting service. Considerations:</p><ul><li>No need to buy&#x2F;rent and set up infrastructure, such as Elastic Computing instances, Domain Name, Content Distribution Network, Load Balancer, DDoS protection</li><li>Hosted directly from GitHub repository</li><li>Our personal website meets its limitations:<ul><li>Non-commercial.</li><li>No confidential information.</li><li>Published GitHub Pages sites may be no larger than 1 GB.</li><li>GitHub Pages sites have a soft bandwidth limit of 100 GB per month.</li><li>GitHub Pages sites have a soft limit of 10 builds per hour.</li></ul></li></ul><p>Implications:</p><ul><li>Static pages.</li><li>Limit content of our personal website to text and lightweight multimedia, such as vector graphics and vector PDFs. Use raster graphics sparingly, and avoid heavyweight multimedia such as audio and video.</li><li>Do not rebuild too frequently (&gt;10 builds per hour).</li></ul><h1 id="Framework"><a href="#Framework" class="headerlink" title="Framework"></a>Framework</h1><p>Our personal website uses the <a href="https://hexo.io/">Hexo</a> blog framework. Considerations:</p><ul><li>Support for GitHub Flavored Markdown.</li><li>Easy-to-use CLI.</li><li>One-command deploy to GitHub Pages.</li><li>Support for two types of pages (Posts and Pages), adequate for a personal website.</li><li>Huge library of spectacular, feature-packed and customizable themes.</li></ul><h1 id="Theme"><a href="#Theme" class="headerlink" title="Theme"></a>Theme</h1><p>Our personal website uses the <a href="https://github.com/fluid-dev/hexo-theme-fluid">fluid</a> theme for Hexo. Considerations:</p><ul><li>Appropriate Features<ul><li>Support for <a href="https://github.com/YunYouJun/yunyoujun.github.io/issues/105">many third-party commenting systems</a>.</li><li>Mathjax support, renders equations like $E&#x3D;mc^2$.</li><li>Social network links.</li></ul></li><li>Extremely Detailed Documentation.</li><li>Actively Maintained.</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Hosting&quot;&gt;&lt;a href=&quot;#Hosting&quot; class=&quot;headerlink&quot; title=&quot;Hosting&quot;&gt;&lt;/a&gt;Hosting&lt;/h1&gt;&lt;p&gt;We host our personal website on &lt;a href=&quot;https://d</summary>
+      
+    
+    
+    
+    <category term="Code" scheme="https://abbaswu.github.io/project/categories/Code/"/>
+    
+    <category term="Personal Website" scheme="https://abbaswu.github.io/project/categories/Code/Personal-Website/"/>
+    
+    
+  </entry>
+  
+</feed>
