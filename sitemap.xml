@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://abbaswu.github.io/project/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/</loc>
+    <loc>https://abbaswu.github.io/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/</loc>
     
     <lastmod>2022-10-30</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://abbaswu.github.io/project/2022/10/20/Personal-Website-Design-Considerations/</loc>
+    <loc>https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/</loc>
     
     <lastmod>2022-10-30</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://abbaswu.github.io/project/about/index.html</loc>
+    <loc>https://abbaswu.github.io/about/index.html</loc>
     
     <lastmod>2022-10-30</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://abbaswu.github.io/project/tags/index.html</loc>
+    <loc>https://abbaswu.github.io/tags/index.html</loc>
     
     <lastmod>2022-10-20</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://abbaswu.github.io/project/categories/index.html</loc>
+    <loc>https://abbaswu.github.io/categories/index.html</loc>
     
     <lastmod>2022-10-20</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://abbaswu.github.io/project/projects/index.html</loc>
+    <loc>https://abbaswu.github.io/projects/index.html</loc>
     
     <lastmod>2022-10-20</lastmod>
     
@@ -57,7 +57,7 @@
   
 
   <url>
-    <loc>https://abbaswu.github.io/project</loc>
+    <loc>https://abbaswu.github.io/</loc>
     <lastmod>2022-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -67,21 +67,21 @@
 
   
   <url>
-    <loc>https://abbaswu.github.io/project/categories/Code/</loc>
+    <loc>https://abbaswu.github.io/categories/Code/</loc>
     <lastmod>2022-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://abbaswu.github.io/project/categories/Code/Personal-Website/</loc>
+    <loc>https://abbaswu.github.io/categories/Code/Personal-Website/</loc>
     <lastmod>2022-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://abbaswu.github.io/project/categories/Code/Computer-Networking/</loc>
+    <loc>https://abbaswu.github.io/categories/Code/Computer-Networking/</loc>
     <lastmod>2022-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

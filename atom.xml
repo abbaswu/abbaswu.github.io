@@ -3,11 +3,11 @@
   <title>Jifeng Wu&#39;s Personal Website</title>
   
   <subtitle>Jifeng Wu&#39;s Personal Website</subtitle>
-  <link href="https://abbaswu.github.io/project/atom.xml" rel="self"/>
+  <link href="https://abbaswu.github.io/atom.xml" rel="self"/>
   
-  <link href="https://abbaswu.github.io/project/"/>
+  <link href="https://abbaswu.github.io/"/>
   <updated>2022-10-30T19:19:16.192Z</updated>
-  <id>https://abbaswu.github.io/project/</id>
+  <id>https://abbaswu.github.io/</id>
   
   <author>
     <name>Jifeng Wu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Various Solutions for Different Types of Reverse Proxying</title>
-    <link href="https://abbaswu.github.io/project/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/"/>
-    <id>https://abbaswu.github.io/project/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/</id>
+    <link href="https://abbaswu.github.io/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/"/>
+    <id>https://abbaswu.github.io/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/</id>
     <published>2022-10-30T07:00:00.000Z</published>
     <updated>2022-10-30T19:19:16.192Z</updated>
     
@@ -33,17 +33,17 @@
     
     
     
-    <category term="Code" scheme="https://abbaswu.github.io/project/categories/Code/"/>
+    <category term="Code" scheme="https://abbaswu.github.io/categories/Code/"/>
     
-    <category term="Computer Networking" scheme="https://abbaswu.github.io/project/categories/Code/Computer-Networking/"/>
+    <category term="Computer Networking" scheme="https://abbaswu.github.io/categories/Code/Computer-Networking/"/>
     
     
   </entry>
   
   <entry>
     <title>Personal Website Design Considerations</title>
-    <link href="https://abbaswu.github.io/project/2022/10/20/Personal-Website-Design-Considerations/"/>
-    <id>https://abbaswu.github.io/project/2022/10/20/Personal-Website-Design-Considerations/</id>
+    <link href="https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/"/>
+    <id>https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/</id>
     <published>2022-10-20T07:00:00.000Z</published>
     <updated>2022-10-30T04:04:46.452Z</updated>
     
@@ -57,9 +57,9 @@
     
     
     
-    <category term="Code" scheme="https://abbaswu.github.io/project/categories/Code/"/>
+    <category term="Code" scheme="https://abbaswu.github.io/categories/Code/"/>
     
-    <category term="Personal Website" scheme="https://abbaswu.github.io/project/categories/Code/Personal-Website/"/>
+    <category term="Personal Website" scheme="https://abbaswu.github.io/categories/Code/Personal-Website/"/>
     
     
   </entry>
