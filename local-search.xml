@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>Command-line HTTP Servers for Rapid File Sharing</title>
+    <link href="/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/"/>
+    <url>/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/</url>
+    
+    <content type="html"><![CDATA[<p>Sometimes, we need an ad-hoc, quick-and-dirty way of sharing files with others while maintaining complete control of the data transmission.</p><ul><li>We should not store our data on any third-party servers.</li><li>The connections established through the network should be point-to-point.</li></ul><p>Being supported by virtually every Internet-capable device and from both command-line tools (such as wget and curl) and graphical Web browsers, the HTTP protocol is one of our best bets. Thus, we have compiled a list of command-line HTTP servers that enable rapid file sharing and compare their features.</p><h1 id="python3-m-http-server"><a href="#python3-m-http-server" class="headerlink" title="python3 -m http.server"></a><a href="https://docs.python.org/dev/library/http.server.html">python3 -m http.server</a></h1><p>The Python standard library has a barebones built-in HTTP server. Not recommended for production.</p><ul><li>Language: Python</li></ul><h1 id="mjpclab-x2F-go-http-file-server"><a href="#mjpclab-x2F-go-http-file-server" class="headerlink" title="mjpclab&#x2F;go-http-file-server"></a><a href="https://github.com/mjpclab/go-http-file-server">mjpclab&#x2F;go-http-file-server</a></h1><p>Simple command line based HTTP file server to share local file system.</p><ul><li>Features:<ul><li>Cross-Origin Resource Sharing (CORS)</li><li>Frontend Features:<ul><li>File Upload</li><li>File Delete</li><li>Create Subdirectory</li><li>Download the Current Directory as an Archive</li></ul></li><li>HTTP Basic Authentication</li><li>HTTP Range Requests</li><li>HTTP Strict Transport Security (HSTS)</li><li>HTTPS</li></ul></li><li>GitHub Stars: 175</li><li>Language: Go</li></ul><h1 id="mar10-x2F-wsgidav"><a href="#mar10-x2F-wsgidav" class="headerlink" title="mar10&#x2F;wsgidav"></a><a href="https://github.com/mar10/wsgidav">mar10&#x2F;wsgidav</a></h1><p>A generic and extendable WebDAV server written in Python and based on WSGI.</p><ul><li>Features:<ul><li>HTTP Range Requests</li></ul></li><li>GitHub Stars: 640</li><li>Language: Python</li><li>Multithreaded</li><li>WebDAV Server</li></ul><h1 id="TheWaWaR-x2F-simple-http-server"><a href="#TheWaWaR-x2F-simple-http-server" class="headerlink" title="TheWaWaR&#x2F;simple-http-server"></a><a href="https://github.com/TheWaWaR/simple-http-server">TheWaWaR&#x2F;simple-http-server</a></h1><p><img src="https://github.com/TheWaWaR/simple-http-server/raw/master/screenshot.png" alt="Screenshot"></p><ul><li>Features:<ul><li>Cross-Origin-Embedder-Policy (COEP)</li><li>Cross-Origin Resource Sharing (CORS) </li><li>Cross-Origin-Opener-Policy (COOP)</li><li>HTTP Basic Authentication</li><li>HTTP Range Requests</li><li>HTTPS</li><li>Frontend Features:<ul><li>File Upload</li></ul></li></ul></li><li>GitHub Stars: 785</li><li>Language: Rust</li><li>Multithreaded</li></ul><h1 id="http-party-x2F-http-server"><a href="#http-party-x2F-http-server" class="headerlink" title="http-party&#x2F;http-server"></a><a href="https://github.com/http-party/http-server">http-party&#x2F;http-server</a></h1><p><code>http-server</code> is a simple, zero-configuration command-line static HTTP server. It is powerful enough for production usage, but it’s simple and hackable enough to be used for testing, local development and learning.</p><ul><li>Features:<ul><li>Cross-Origin Resource Sharing (CORS)</li><li>HTTP Basic Authentication</li><li>HTTP Range Requests</li><li>HTTPS</li></ul></li><li>GitHub Stars: 12.4k</li><li>Language: node.js</li></ul><h1 id="EstebanBorai-x2F-http-server"><a href="#EstebanBorai-x2F-http-server" class="headerlink" title="EstebanBorai&#x2F;http-server"></a><a href="https://github.com/EstebanBorai/http-server">EstebanBorai&#x2F;http-server</a></h1><p>Simple and configurable command-line HTTP server</p><ul><li>Features:<ul><li>Cross-Origin Resource Sharing (CORS)</li><li>HTTP Basic Authentication</li><li>HTTPS</li><li>GZip Compression</li></ul></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>Code</category>
+      
+      <category>Unix</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Paper Review: Efficient scalable thread-safety-violation detection: finding thousands of concurrency bugs during testing</title>
     <link href="/2022/11/27/Paper-Review-Efficient-scalable-thread-safety-violation-detection-finding-thousands-of-concurrency-bugs-during-testing/"/>
     <url>/2022/11/27/Paper-Review-Efficient-scalable-thread-safety-violation-detection-finding-thousands-of-concurrency-bugs-during-testing/</url>
