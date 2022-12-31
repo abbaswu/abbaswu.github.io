@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/</loc>
+    <lastmod>2022-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://abbaswu.github.io/2022/12/31/Date-and-Time-Types-in-Python/</loc>
+    <lastmod>2022-12-31</lastmod>
+  </url>
+  <url>
     <loc>https://abbaswu.github.io/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/</loc>
     <lastmod>2022-12-26</lastmod>
   </url>
@@ -143,9 +151,5 @@
   <url>
     <loc>https://abbaswu.github.io/2022/09/14/Paper-Review-Asking-and-Answering-Questions-during-a-Programming-Change-Task/</loc>
     <lastmod>2022-12-18</lastmod>
-  </url>
-  <url>
-    <loc>https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/</loc>
-    <lastmod>2022-10-30</lastmod>
   </url>
 </urlset> 
