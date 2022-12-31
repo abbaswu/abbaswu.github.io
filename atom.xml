@@ -42,6 +42,28 @@
   </entry>
   
   <entry>
+    <title>Social Media Strategy (tentative)</title>
+    <link href="https://abbaswu.github.io/2022/12/31/Social-Media-Strategy-tentative/"/>
+    <id>https://abbaswu.github.io/2022/12/31/Social-Media-Strategy-tentative/</id>
+    <published>2022-12-31T08:00:00.000Z</published>
+    <updated>2022-12-31T19:34:02.650Z</updated>
+    
+    <content type="html"><![CDATA[<p>Social media accounts are windows that exhibit our image to the public, and we must pay attention to them. However, on the one hand, the use of social media should complement, and not negatively affect, our routine work, study, and life patterns; on the other hand, different social media platforms generally differ in terms of appropriate content to display. After a period of observation and reflection, we have developed the following social media strategy to address these issues, as depicted in the Bipartite Graph below.</p><pre><code class=" mermaid">stateDiagramstate &quot;Life Moments&quot; as LifeMomentsstate &quot;Reflections on Life&quot; as ReflectionsOnLifestate &quot;Work Moments&quot; as WorkMomentsstate &quot;Reflections on Work&quot; as ReflectionsOnWorkstate &quot;Reflections on Development&quot; as ReflectionsOnDevelopmentstate &quot;Detailed Explanations&quot; as DetailedExplanationsstate &quot;Planning&quot; as Planningstate &quot;Instagram&quot; as Instagramstate &quot;小红书&quot; as XiaoHongShustate &quot;WeChat&quot; as WeChatstate &quot;QQ&quot; as QQstate &quot;LinkedIn&quot; as LinkedInstate &quot;Blog&quot; as Blog    LifeMoments --&gt; Instagram    LifeMoments --&gt; XiaoHongShu    LifeMoments --&gt; WeChat    LifeMoments --&gt; QQ        ReflectionsOnLife --&gt; XiaoHongShu    ReflectionsOnLife --&gt; Twitter    ReflectionsOnLife --&gt; WeChat    ReflectionsOnLife --&gt; QQ    WorkMoments --&gt; Twitter    WorkMoments --&gt; WeChat    WorkMoments --&gt; QQ    ReflectionsOnWork --&gt; Twitter    ReflectionsOnWork --&gt; WeChat    ReflectionsOnWork --&gt; QQ    ReflectionsOnDevelopment --&gt; LinkedIn        DetailedExplanations --&gt; Blog        Planning --&gt; Blog</code></pre><p>In addition, a pain point we will encounter is that we will post some content to both Chinese and English social media platforms. To overcome this problem, we can first write a Chinese (or English) version and use automated tools such as Google Translate and DeepL before manually touching up the machine-translated version.</p><p>Furthermore, to boost the following of our social media accounts, when we need to share the content posted on social media with others via private chat, we can share the link of the content posted to social media instead of copying and pasting the content itself.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Social media accounts are windows that exhibit our image to the public, and we must pay attention to them. However, on the one hand, the </summary>
+      
+    
+    
+    
+    <category term="Planning" scheme="https://abbaswu.github.io/categories/Planning/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Command-line HTTP Servers for Rapid File Sharing</title>
     <link href="https://abbaswu.github.io/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/"/>
     <id>https://abbaswu.github.io/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/</id>
@@ -470,30 +492,6 @@
     <category term="Paper Review" scheme="https://abbaswu.github.io/categories/Paper-Review/"/>
     
     <category term="Topics in Programming Languages: Automated Testing, Bug Detection, and Program Analysis" scheme="https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Automated-Testing-Bug-Detection-and-Program-Analysis/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Paper Review: Breaking the Barriers to Successful Refactoring: Observations and Tools for Extract Method</title>
-    <link href="https://abbaswu.github.io/2022/10/13/Paper-Review-Breaking-the-Barriers-to-Successful-Refactoring-Observations-and-Tools-for-Extract-Method/"/>
-    <id>https://abbaswu.github.io/2022/10/13/Paper-Review-Breaking-the-Barriers-to-Successful-Refactoring-Observations-and-Tools-for-Extract-Method/</id>
-    <published>2022-10-13T07:00:00.000Z</published>
-    <updated>2022-12-18T17:36:14.449Z</updated>
-    
-    <content type="html"><![CDATA[<p>NOTE: This is a Paper Review for <a href="https://github.com/ubccpsc/507/tree/2022sept">Advanced Software Engineering</a>. The original paper can be found <a href="https://doi.org/10.1145/1368088.1368146">here</a>.</p><p>Refactoring is important to software development. Performing a refactoring is not trivial, for which refactoring tools have been developed. Nevertheless, programmers do not use refactoring tools as often as they could.</p><p>To investigate this problem, the authors focus on one type of refactoring and one specific tool - the Extract Method tool in the Eclipse IDE.</p><ul><li>Fowler reports that Extract Method is “one of the most common refactorings”, “a key refactoring” which if successful, means “you can go on [to do] more refactorings”.</li><li>The Extract Method tool in the Eclipse IDE it is a mature, non-trivial refactoring tool.</li><li>Most refactoring tool user interfaces are very similar.</li></ul><p>The authors first conject tools are non-specific and unhelpful in diagnosing problems, and undertake a formative study observing 11 programmers perform a number of Extract Method refactorings on several large, open-source projects, which suggest that programmers fairly frequently encounter a variety of errors arising from violated refactoring preconditions.</p><p>The authors further conjecture error messages were conflated, insufficiently descriptive, and discouraged programmers from refactoring, and built three visualization tools within the Eclipse IDE as solutions. Then, they conducted a study to assess whether or not the new tools overcome these usability problems by comparing the accuracy and time to complete refactoring tasks with and without the new tools, and administered a post-test questionnaire for the subjects to express their preferences. The results of the study were very positive, and subjects found the new tools superior and helpful outside of the context of the study.</p><p>Finally, the authors provide recommendations for future tools.</p><ul><li>Code Selection: A selection tool should be lightweight, task-specific, and help the programmer overcome unfamiliar&#x2F;unusual code formatting.</li><li>Displaying Violated Preconditions: quickly comprehensible, indicate location, easily distinguishable from warnings and advisories, display amount of work required, display relations between precondition violations, distinguish different types of violations.</li></ul><p>The experimental study is very concise, and there are many aspects that can be borrowed.</p><ul><li>Undertaking a formative study to verify conjections about problems within current tools, before building new tools based on the verified conjections, and evaluating them.</li><li>The visualization comparing the the accuracy and time of <strong>each participant</strong> to complete refactoring tasks with and without the new tools is accurate and straightforward.</li><li>Using a questionnaire to acquire subjective feedback complimentary to an objective evaluation.</li></ul><p>However, there are still some flaws.</p><ul><li>Only one type of refactoring (Extract Method) and one specific tool was considered. The takeaways may not apply to other types of refactoring.</li><li>Several key variates were not controlled in the formative study, such as participants were free to refactor whatever code they thought necessary.</li></ul><p>Future directions of work include:</p><ul><li>Replicating the study for other types of refactoring.</li><li>Build and assess new refactoring tools with increased usability.</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;NOTE: This is a Paper Review for &lt;a href=&quot;https://github.com/ubccpsc/507/tree/2022sept&quot;&gt;Advanced Software Engineering&lt;/a&gt;. The original p</summary>
-      
-    
-    
-    
-    <category term="Paper Review" scheme="https://abbaswu.github.io/categories/Paper-Review/"/>
-    
-    <category term="Advanced Software Engineering" scheme="https://abbaswu.github.io/categories/Paper-Review/Advanced-Software-Engineering/"/>
     
     
   </entry>

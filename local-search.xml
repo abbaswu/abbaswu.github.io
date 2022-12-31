@@ -25,6 +25,25 @@
   
   
   <entry>
+    <title>Social Media Strategy (tentative)</title>
+    <link href="/2022/12/31/Social-Media-Strategy-tentative/"/>
+    <url>/2022/12/31/Social-Media-Strategy-tentative/</url>
+    
+    <content type="html"><![CDATA[<p>Social media accounts are windows that exhibit our image to the public, and we must pay attention to them. However, on the one hand, the use of social media should complement, and not negatively affect, our routine work, study, and life patterns; on the other hand, different social media platforms generally differ in terms of appropriate content to display. After a period of observation and reflection, we have developed the following social media strategy to address these issues, as depicted in the Bipartite Graph below.</p><pre><code class=" mermaid">stateDiagramstate &quot;Life Moments&quot; as LifeMomentsstate &quot;Reflections on Life&quot; as ReflectionsOnLifestate &quot;Work Moments&quot; as WorkMomentsstate &quot;Reflections on Work&quot; as ReflectionsOnWorkstate &quot;Reflections on Development&quot; as ReflectionsOnDevelopmentstate &quot;Detailed Explanations&quot; as DetailedExplanationsstate &quot;Planning&quot; as Planningstate &quot;Instagram&quot; as Instagramstate &quot;小红书&quot; as XiaoHongShustate &quot;WeChat&quot; as WeChatstate &quot;QQ&quot; as QQstate &quot;LinkedIn&quot; as LinkedInstate &quot;Blog&quot; as Blog    LifeMoments --&gt; Instagram    LifeMoments --&gt; XiaoHongShu    LifeMoments --&gt; WeChat    LifeMoments --&gt; QQ        ReflectionsOnLife --&gt; XiaoHongShu    ReflectionsOnLife --&gt; Twitter    ReflectionsOnLife --&gt; WeChat    ReflectionsOnLife --&gt; QQ    WorkMoments --&gt; Twitter    WorkMoments --&gt; WeChat    WorkMoments --&gt; QQ    ReflectionsOnWork --&gt; Twitter    ReflectionsOnWork --&gt; WeChat    ReflectionsOnWork --&gt; QQ    ReflectionsOnDevelopment --&gt; LinkedIn        DetailedExplanations --&gt; Blog        Planning --&gt; Blog</code></pre><p>In addition, a pain point we will encounter is that we will post some content to both Chinese and English social media platforms. To overcome this problem, we can first write a Chinese (or English) version and use automated tools such as Google Translate and DeepL before manually touching up the machine-translated version.</p><p>Furthermore, to boost the following of our social media accounts, when we need to share the content posted on social media with others via private chat, we can share the link of the content posted to social media instead of copying and pasting the content itself.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Planning</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Command-line HTTP Servers for Rapid File Sharing</title>
     <link href="/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/"/>
     <url>/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/</url>
