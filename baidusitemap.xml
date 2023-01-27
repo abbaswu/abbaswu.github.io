@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://abbaswu.github.io/2023/01/25/Paper-Review-Types-and-Programming-Languages-Chapter-9-and-Chapter-11/</loc>
+    <lastmod>2023-01-27</lastmod>
+  </url>
+  <url>
     <loc>https://abbaswu.github.io/2023/01/02/Modules-Within-PySide6-for-Cross-platform-GUI-Building-and-System-API-Calling/</loc>
     <lastmod>2023-01-03</lastmod>
   </url>
