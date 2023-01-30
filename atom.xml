@@ -6,7 +6,7 @@
   <link href="https://abbaswu.github.io/atom.xml" rel="self"/>
   
   <link href="https://abbaswu.github.io/"/>
-  <updated>2023-01-27T19:46:15.817Z</updated>
+  <updated>2023-01-30T19:16:29.596Z</updated>
   <id>https://abbaswu.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Paper Review: Bi-directional type checking</title>
+    <link href="https://abbaswu.github.io/2023/01/30/Paper-Review-Bi-directional-type-checking/"/>
+    <id>https://abbaswu.github.io/2023/01/30/Paper-Review-Bi-directional-type-checking/</id>
+    <published>2023-01-30T08:00:00.000Z</published>
+    <updated>2023-01-30T19:16:29.596Z</updated>
+    
+    <content type="html"><![CDATA[<p>NOTE: This is a Paper Review for <a href="https://williamjbowman.com/teaching/2022/w2/cpsc539b/">Topics in Programming Languages: Type Systems</a>. The original paper can be found <a href="http://www.davidchristiansen.dk/tutorials/bidirectional.pdf">here</a>.</p><h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><p>The paper first explains that except Syntax Directed Systems, Typing Rules cannot be directly translated into Algorithms for Type Checking and Type Inference. It presents a motivating example of this using a Simply Typed Lambda Calculus having Bool and Function as Types and Bool Constants, Variables, Function Abstractions, Function Applications, and Conditional Expressions as Terms, in which the Typing Rule for Function Abstractions cannot be directly translated into a Function for Type Inference.</p><p>It then presents Bidirectional Typing as a remedy to this problem. It explains what Bidirectional Typing is, discusses its advantage, and adds Bidirectional Typing into the previously presented Simply Typed Lambda Calculus, presenting how Bidirectional Typing works during the process.</p><p>Finally, it discusses the limitations of Bidirectional Typing and presents academic literature for further reading.</p><h1 id="Critique"><a href="#Critique" class="headerlink" title="Critique"></a>Critique</h1><p>Overall, I believe this paper is written very well, as I can grasp most of it after reading it. I will summarize my takeaways from this paper before presenting some questions and comments.</p><h2 id="My-Takeaways-From-This-Paper"><a href="#My-Takeaways-From-This-Paper" class="headerlink" title="My Takeaways From This Paper"></a>My Takeaways From This Paper</h2><h3 id="What-Bidirectional-Typing-Is"><a href="#What-Bidirectional-Typing-Is" class="headerlink" title="What Bidirectional Typing Is"></a>What Bidirectional Typing Is</h3><p>Bidirectional Typing splits each Typing Rule $\Gamma \vdash t: T$ into:</p><ul><li>An Inference Rule $\Gamma \vdash t \Rightarrow T$, which <em>infers</em> $t$’s type to be $T$ in Context $\Gamma$.</li><li>A Type Checking Rule $\Gamma \vdash t \Leftarrow T$, which <em>checks</em> $t$’s type to be $T$ in Context $\Gamma$.</li></ul><p>The Inference Rules and Type Checking Rules would work together and call each other.</p><h3 id="Advantages-of-Bidirectional-Typing"><a href="#Advantages-of-Bidirectional-Typing" class="headerlink" title="Advantages of Bidirectional Typing"></a>Advantages of Bidirectional Typing</h3><ul><li>Makes general Typing Rules more Syntax Directed, thus, simplifying implementing Algorithms for Type Checking and Type Inference.</li><li>Requires relatively few additional Type Annotations.</li><li>Produces good error messages that report where the error occurs.</li></ul><h3 id="Limitations-of-Bidirectional-Typing"><a href="#Limitations-of-Bidirectional-Typing" class="headerlink" title="Limitations of Bidirectional Typing"></a>Limitations of Bidirectional Typing</h3><ul><li>Variables in a Derivation can no longer be replaced by the Derivation for a Term of the same Type. This is because Bidirectional Typing uses Inference Mode to check Variables but uses Checking Mode to check many other Terms.</li><li>In some situations, explicit Type Annotations may need to be written within complex Terms, such as a direct Application of a Function Abstraction, like <code>(λ b . if b then false else true) true: Bool</code></li></ul><h2 id="Questions-and-Comments"><a href="#Questions-and-Comments" class="headerlink" title="Questions and Comments"></a>Questions and Comments</h2><ul><li>Page 8 mentions, “remember that the derivation, like the bidirectional typing rules, should be read bottom-to-top and left-to-right.” However, Inference Rules have the form of $\frac{Premise}{Conclusion}$. So, why should the derivation be read from Conclusion to Premise?</li><li>What are the meanings of the small-step rule $\frac{}{t : T \rightarrow t}$ and the large-step rule $\frac{t \Downarrow t’}{t : T \Downarrow t’}$ on Page 8?</li><li>I believe explicit Type Annotations should be enforced for the Parameters within Function Abstractions, such as <code>(λ b: Bool . if b then false else true)</code> instead of <code>(λ b . if b then false else true)</code>.<ul><li>This aligns with real-world programming languages (C++, Java, Rust, Swift, Haskell, etc.)</li><li>This increases readability.</li><li>This simplifies both the Typing Rules and the Inference Rules and Type Checking Rules of Bidirectional Typing.</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;NOTE: This is a Paper Review for &lt;a href=&quot;https://williamjbowman.com/teaching/2022/w2/cpsc539b/&quot;&gt;Topics in Programming Languages: Type Sy</summary>
+      
+    
+    
+    
+    <category term="Paper Review" scheme="https://abbaswu.github.io/categories/Paper-Review/"/>
+    
+    <category term="Topics in Programming Languages: Type Systems" scheme="https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Type-Systems/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Paper Review: &quot;Types and Programming Languages&quot; Chapter 9 and Chapter 11</title>
@@ -470,30 +494,6 @@
     <category term="Code" scheme="https://abbaswu.github.io/categories/Code/"/>
     
     <category term="Personal Website" scheme="https://abbaswu.github.io/categories/Code/Personal-Website/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Paper Review: Feedback-Directed Random Test Generation</title>
-    <link href="https://abbaswu.github.io/2022/10/18/Paper-Review-Feedback-Directed-Random-Test-Generation/"/>
-    <id>https://abbaswu.github.io/2022/10/18/Paper-Review-Feedback-Directed-Random-Test-Generation/</id>
-    <published>2022-10-18T07:00:00.000Z</published>
-    <updated>2022-12-18T22:20:14.436Z</updated>
-    
-    <content type="html"><![CDATA[<p>NOTE: This is a Paper Review for <a href="https://www.carolemieux.com/teaching/CPSC539L_2022w1.html">Topics in Programming Languages: Automated Testing, Bug Detection, and Program Analysis</a>. The original paper can be found <a href="https://doi.org/10.1109/ICSE.2007.37">here</a>.</p><h1 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h1><p>The authors present Randoop, a feedback-directed random unit test generator for object-oriented programs which generates sequences of method calls that create and mutate objects, and uses feedback obtained from executing the sequences to guide the search towards new sequences.</p><h1 id="Logic-of-Randoop"><a href="#Logic-of-Randoop" class="headerlink" title="Logic of Randoop"></a>Logic of Randoop</h1><p>Randoop builds sequences incrementally starting from an empty set of sequences. In each iteration, it generates and executes a new sequence.</p><h2 id="Sequence-Generation"><a href="#Sequence-Generation" class="headerlink" title="Sequence Generation"></a>Sequence Generation</h2><p>First, it selects a method randomly among the public methods of classes.</p><p>Second, it finds arguments to provide to the method.</p><ul><li>If an argument is a primitive type, select a primitive value from a fixed pool of values.</li><li>If an argument is a reference type, select an extensible value of the corresponding type from a previously generated sequence in $nonErrorSeqs$ and put the previous generated sequence into a temporary list if possible, or select null otherwise.</li></ul><p>Third, a new sequence is formed by concatenating the sequences in the temporary list and the randomly selected method.</p><p>Fourth, the new sequence is checked whether it has been generated before. If so, the process is repeated.</p><p>Furthermore, the authors considers that repeated calls to a method may increase code coverage (e.g. reach code that increases the capacity of a container object, or reach code that goes down certain branches). Thus, with a probability $p &#x3D; 0.1$, instead of appending a single call of a chosen method, a maximum of $N &#x3D; 100$ calls are appended.</p><h2 id="Sequence-Execution"><a href="#Sequence-Execution" class="headerlink" title="Sequence Execution"></a>Sequence Execution</h2><p>After a new sequence is generated, each method call in the sequence is executed, and after each call, contracts are checked.</p><p>Default contracts checked by Randoop include:</p><ul><li>method throws no NullPointerException if no input parameter was null</li><li>method throws no AssertionError</li><li>o.equals(o) returns true and throws no exception</li><li>o.hashCode() throws no exception</li><li>o.toString() throws no exception</li></ul><p>If at least one contract is violated, the sequence is put in $errorSeqs$, and no values within the sequence can be extended. If all contracts are not violated, the sequence is put in $nonErrorSeqs$, and all values within the sequence are checked whether they can be extended. If the value has been encountered before, is null, or an exception occurs when executing the sequence leading to the value, the value cannot be extended.</p><h1 id="Experimental-Study"><a href="#Experimental-Study" class="headerlink" title="Experimental Study"></a>Experimental Study</h1><p>The authors evaluate the effectiveness of Randoop through three experiments.</p><ol><li>Comparing the basic block and predicate coverage of Randoop and five systematic input generation techniques on four container data structures used previously to evaluate these systematic input generation techniques.</li><li>Comparing Randoop with JPF (a systematic testing technique) and undirected random testing on 14 widely-used libraries.</li><li>A case study using Randoop to find regression errors between different implementations of the Java JDK.</li></ol><p>The experimental results strongly suggest that Randoop outperforms systematic and undirected random test generation in both coverage and error detection.</p><h1 id="Personal-Thoughts"><a href="#Personal-Thoughts" class="headerlink" title="Personal Thoughts"></a>Personal Thoughts</h1><ol><li>In my opinion, a key advantage of Randoop is the “sparse, global sampling” that it performs, which “retains the benefits of random testing (scalability, simplicity of implementation)”, while avoiding undirected random testing’s pitfalls (generation of redundant or meaningless inputs), and is better adapted to large-scale library code than the “dense, local sampling” of systematic test generation.</li><li>The sequences Randoop builds are akin to seeds in coverage-guided fuzzing, and I believe the efficiency and effectiveness of Randoop may be further boosted by applying a power schedule to the built sequences, much like applying a power schedule to the seeds in coverage-guided fuzzing.</li><li>The built sequences could possibly have overlapping prefixes. Would using a tree structure be better than storing each sequence on its own?</li><li>Randoop only supports a limited number of contracts, and its error-detection ability is rather weak. It may be appropriate on library code filled with assertions and checks, but may not work well on client code where these may be sparse.</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;NOTE: This is a Paper Review for &lt;a href=&quot;https://www.carolemieux.com/teaching/CPSC539L_2022w1.html&quot;&gt;Topics in Programming Languages: Aut</summary>
-      
-    
-    
-    
-    <category term="Paper Review" scheme="https://abbaswu.github.io/categories/Paper-Review/"/>
-    
-    <category term="Topics in Programming Languages: Automated Testing, Bug Detection, and Program Analysis" scheme="https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Automated-Testing-Bug-Detection-and-Program-Analysis/"/>
     
     
   </entry>
