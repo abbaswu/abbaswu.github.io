@@ -1,6 +1,6 @@
+https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/01/25/Paper-Review-Types-and-Programming-Languages-Chapter-9-and-Chapter-11/
 https://abbaswu.github.io/2023/01/30/Paper-Review-Bi-directional-type-checking/
-https://abbaswu.github.io/about/index.html
 https://abbaswu.github.io/2023/01/02/Modules-Within-PySide6-for-Cross-platform-GUI-Building-and-System-API-Calling/
 https://abbaswu.github.io/2022/12/31/Social-Media-Strategy-tentative/
 https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/
