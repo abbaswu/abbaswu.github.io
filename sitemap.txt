@@ -1,3 +1,4 @@
+https://abbaswu.github.io/2023/02/16/Easily-Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/
 https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/02/10/Paper-Review-Types-and-Programming-Languages-Chapter-15-and-Chapter-16/
 https://abbaswu.github.io/2023/02/05/Paper-Review-Types-and-Programming-Languages-Chapter-13-and-Chapter-14/
