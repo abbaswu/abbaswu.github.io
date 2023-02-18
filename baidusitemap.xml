@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://abbaswu.github.io/2023/02/18/Using-ffmpeg-to-Manipulate-Video-Files/</loc>
+    <lastmod>2023-02-18</lastmod>
+  </url>
+  <url>
     <loc>https://abbaswu.github.io/2023/02/16/Easily-Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/</loc>
-    <lastmod>2023-02-17</lastmod>
+    <lastmod>2023-02-18</lastmod>
+  </url>
+  <url>
+    <loc>https://abbaswu.github.io/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/</loc>
+    <lastmod>2023-02-18</lastmod>
   </url>
   <url>
     <loc>https://abbaswu.github.io/2023/02/10/Paper-Review-Types-and-Programming-Languages-Chapter-15-and-Chapter-16/</loc>
@@ -35,10 +43,6 @@
   <url>
     <loc>https://abbaswu.github.io/2022/12/31/Date-and-Time-Types-in-Python/</loc>
     <lastmod>2022-12-31</lastmod>
-  </url>
-  <url>
-    <loc>https://abbaswu.github.io/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/</loc>
-    <lastmod>2022-12-26</lastmod>
   </url>
   <url>
     <loc>https://abbaswu.github.io/2022/11/16/Paper-Review-Lightweight-Verification-of-Array-Indexing/</loc>
