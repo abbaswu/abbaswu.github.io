@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://abbaswu.github.io/2022/10/25/Paper-Review-ReCrash-Making-Software-Failures-Reproducible-by-Preserving-Object-States/</loc>
+    <lastmod>2023-02-26</lastmod>
+  </url>
+  <url>
+    <loc>https://abbaswu.github.io/2023/02/16/Easily-Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/</loc>
+    <lastmod>2023-02-26</lastmod>
+  </url>
+  <url>
+    <loc>https://abbaswu.github.io/2022/10/28/Python-in-a-Functional-Style-Closures-Generators-and-Coroutines/</loc>
+    <lastmod>2023-02-26</lastmod>
+  </url>
+  <url>
+    <loc>https://abbaswu.github.io/2022/09/16/Understanding-the-Formulation-of-Information-Entropy/</loc>
+    <lastmod>2023-02-26</lastmod>
+  </url>
+  <url>
+    <loc>https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/</loc>
+    <lastmod>2023-02-26</lastmod>
+  </url>
+  <url>
     <loc>https://abbaswu.github.io/2023/02/20/Displaying-Information-for-Thrown-and-Caught-Exceptions-to-the-User-in-Python/</loc>
     <lastmod>2023-02-20</lastmod>
   </url>
   <url>
     <loc>https://abbaswu.github.io/2023/02/18/Using-ffmpeg-to-Manipulate-Video-Files/</loc>
-    <lastmod>2023-02-18</lastmod>
-  </url>
-  <url>
-    <loc>https://abbaswu.github.io/2023/02/16/Easily-Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/</loc>
     <lastmod>2023-02-18</lastmod>
   </url>
   <url>
@@ -38,10 +54,6 @@
   </url>
   <url>
     <loc>https://abbaswu.github.io/2022/12/31/Social-Media-Strategy-tentative/</loc>
-    <lastmod>2022-12-31</lastmod>
-  </url>
-  <url>
-    <loc>https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/</loc>
     <lastmod>2022-12-31</lastmod>
   </url>
   <url>
@@ -118,14 +130,6 @@
   </url>
   <url>
     <loc>https://abbaswu.github.io/2022/09/10/Paper-Review-An-empirical-study-of-the-reliability-of-UNIX-utilities/</loc>
-    <lastmod>2022-12-18</lastmod>
-  </url>
-  <url>
-    <loc>https://abbaswu.github.io/2022/10/25/Paper-Review-ReCrash-Making-Software-Failures-Reproducible-by-Preserving-Object-States/</loc>
-    <lastmod>2022-12-18</lastmod>
-  </url>
-  <url>
-    <loc>https://abbaswu.github.io/2022/10/28/Python-in-a-Functional-Style-Closures-Generators-and-Coroutines/</loc>
     <lastmod>2022-12-18</lastmod>
   </url>
   <url>

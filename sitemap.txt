@@ -1,15 +1,18 @@
+https://abbaswu.github.io/index.html
+https://abbaswu.github.io/2022/10/25/Paper-Review-ReCrash-Making-Software-Failures-Reproducible-by-Preserving-Object-States/
+https://abbaswu.github.io/2023/02/16/Easily-Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/
+https://abbaswu.github.io/2022/10/28/Python-in-a-Functional-Style-Closures-Generators-and-Coroutines/
+https://abbaswu.github.io/2022/09/16/Understanding-the-Formulation-of-Information-Entropy/
+https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/
 https://abbaswu.github.io/2023/02/20/Displaying-Information-for-Thrown-and-Caught-Exceptions-to-the-User-in-Python/
 https://abbaswu.github.io/2023/02/18/Using-ffmpeg-to-Manipulate-Video-Files/
-https://abbaswu.github.io/2023/02/16/Easily-Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/
 https://abbaswu.github.io/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/
-https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/02/10/Paper-Review-Types-and-Programming-Languages-Chapter-15-and-Chapter-16/
 https://abbaswu.github.io/2023/02/05/Paper-Review-Types-and-Programming-Languages-Chapter-13-and-Chapter-14/
 https://abbaswu.github.io/2023/01/25/Paper-Review-Types-and-Programming-Languages-Chapter-9-and-Chapter-11/
 https://abbaswu.github.io/2023/01/30/Paper-Review-Bi-directional-type-checking/
 https://abbaswu.github.io/2023/01/02/Modules-Within-PySide6-for-Cross-platform-GUI-Building-and-System-API-Calling/
 https://abbaswu.github.io/2022/12/31/Social-Media-Strategy-tentative/
-https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/
 https://abbaswu.github.io/2022/12/31/Date-and-Time-Types-in-Python/
 https://abbaswu.github.io/2022/11/16/Paper-Review-Lightweight-Verification-of-Array-Indexing/
 https://abbaswu.github.io/2022/11/27/Paper-Review-Efficient-scalable-thread-safety-violation-detection-finding-thousands-of-concurrency-bugs-during-testing/
@@ -29,8 +32,6 @@ https://abbaswu.github.io/2022/10/02/Paper-Review-CUTE-A-Concolic-Unit-Testing-E
 https://abbaswu.github.io/2022/09/20/Paper-Review-Boosting-Fuzzer-Eficiency-An-Information-Theoretic-Perspective/
 https://abbaswu.github.io/2022/10/16/Paper-Review-A-Practical-Guide-for-Using-Statistical-Tests-to-Assess-Randomized-Algorithms-in-Software-Engineering/
 https://abbaswu.github.io/2022/09/10/Paper-Review-An-empirical-study-of-the-reliability-of-UNIX-utilities/
-https://abbaswu.github.io/2022/10/25/Paper-Review-ReCrash-Making-Software-Failures-Reproducible-by-Preserving-Object-States/
-https://abbaswu.github.io/2022/10/28/Python-in-a-Functional-Style-Closures-Generators-and-Coroutines/
 https://abbaswu.github.io/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/
 https://abbaswu.github.io/2022/09/21/Paper-Review-The-Art-of-Testing-Less-without-Sacrificing-Quality/
 https://abbaswu.github.io/2022/10/26/Paper-Review-The-Fundamentals-of-Writing-Questions/
@@ -51,7 +52,6 @@ https://abbaswu.github.io/categories/index.html
 https://abbaswu.github.io/projects/index.html
 https://abbaswu.github.io/
 https://abbaswu.github.io/categories/Code/
-https://abbaswu.github.io/categories/Code/Personal-Website/
 https://abbaswu.github.io/categories/Code/Computer-Networking/
 https://abbaswu.github.io/categories/Paper-Review/
 https://abbaswu.github.io/categories/Paper-Review/Advanced-Software-Engineering/
@@ -61,3 +61,4 @@ https://abbaswu.github.io/categories/Code/Unix/
 https://abbaswu.github.io/categories/Planning/
 https://abbaswu.github.io/categories/Code/Python/PySide6/
 https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Type-Systems/
+https://abbaswu.github.io/categories/Mathematics/
