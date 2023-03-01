@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://abbaswu.github.io/2023/03/01/Understanding-Lambda-Calculus-Through-CXX/</loc>
+    
+    <lastmod>2023-03-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://abbaswu.github.io/index.html</loc>
     
     <lastmod>2023-03-01</lastmod>
@@ -561,6 +570,13 @@
   
   <url>
     <loc>https://abbaswu.github.io/categories/Mathematics/</loc>
+    <lastmod>2023-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://abbaswu.github.io/categories/Code/C/</loc>
     <lastmod>2023-03-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

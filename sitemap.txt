@@ -1,3 +1,4 @@
+https://abbaswu.github.io/2023/03/01/Understanding-Lambda-Calculus-Through-CXX/
 https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/02/26/Paper-Review-Types-and-Programming-Languages-Chapter-22/
 https://abbaswu.github.io/2022/10/25/Paper-Review-ReCrash-Making-Software-Failures-Reproducible-by-Preserving-Object-States/
@@ -63,3 +64,4 @@ https://abbaswu.github.io/categories/Planning/
 https://abbaswu.github.io/categories/Code/Python/PySide6/
 https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Type-Systems/
 https://abbaswu.github.io/categories/Mathematics/
+https://abbaswu.github.io/categories/Code/C/
