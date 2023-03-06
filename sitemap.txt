@@ -1,4 +1,5 @@
 https://abbaswu.github.io/2023/03/01/Understanding-Lambda-Calculus-Through-CXX/
+https://abbaswu.github.io/2023/03/06/Paper-Review-How-to-make-ad-hoc-polymorphism-less-ad-hoc/
 https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/02/26/Paper-Review-Types-and-Programming-Languages-Chapter-22/
 https://abbaswu.github.io/2022/10/25/Paper-Review-ReCrash-Making-Software-Failures-Reproducible-by-Preserving-Object-States/
