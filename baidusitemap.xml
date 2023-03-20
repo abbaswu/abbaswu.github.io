@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://abbaswu.github.io/2023/03/19/Paper-Review-Refinement-Types/</loc>
+    <lastmod>2023-03-20</lastmod>
+  </url>
+  <url>
+    <loc>https://abbaswu.github.io/2022/10/28/Python-in-a-Functional-Style-Closures-Generators-and-Coroutines/</loc>
+    <lastmod>2023-03-18</lastmod>
+  </url>
+  <url>
     <loc>https://abbaswu.github.io/2023/03/01/Understanding-Lambda-Calculus-Through-CXX/</loc>
     <lastmod>2023-03-06</lastmod>
   </url>
@@ -18,10 +26,6 @@
   </url>
   <url>
     <loc>https://abbaswu.github.io/2023/02/16/Easily-Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/</loc>
-    <lastmod>2023-02-26</lastmod>
-  </url>
-  <url>
-    <loc>https://abbaswu.github.io/2022/10/28/Python-in-a-Functional-Style-Closures-Generators-and-Coroutines/</loc>
     <lastmod>2023-02-26</lastmod>
   </url>
   <url>
