@@ -1,8 +1,9 @@
+https://abbaswu.github.io/2023/02/10/Paper-Review-Types-and-Programming-Languages-Chapter-15-and-Chapter-16/
+https://abbaswu.github.io/index.html
+https://abbaswu.github.io/2023/03/01/Understanding-Lambda-Calculus-Through-CXX/
 https://abbaswu.github.io/2023/03/19/Paper-Review-Refinement-Types/
 https://abbaswu.github.io/2022/10/28/Python-in-a-Functional-Style-Closures-Generators-and-Coroutines/
-https://abbaswu.github.io/2023/03/01/Understanding-Lambda-Calculus-Through-CXX/
 https://abbaswu.github.io/2023/03/06/Paper-Review-How-to-make-ad-hoc-polymorphism-less-ad-hoc/
-https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/02/26/Paper-Review-Types-and-Programming-Languages-Chapter-22/
 https://abbaswu.github.io/2022/10/25/Paper-Review-ReCrash-Making-Software-Failures-Reproducible-by-Preserving-Object-States/
 https://abbaswu.github.io/2023/02/16/Easily-Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/
@@ -11,7 +12,6 @@ https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/
 https://abbaswu.github.io/2023/02/20/Displaying-Information-for-Thrown-and-Caught-Exceptions-to-the-User-in-Python/
 https://abbaswu.github.io/2023/02/18/Using-ffmpeg-to-Manipulate-Video-Files/
 https://abbaswu.github.io/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/
-https://abbaswu.github.io/2023/02/10/Paper-Review-Types-and-Programming-Languages-Chapter-15-and-Chapter-16/
 https://abbaswu.github.io/2023/02/05/Paper-Review-Types-and-Programming-Languages-Chapter-13-and-Chapter-14/
 https://abbaswu.github.io/2023/01/25/Paper-Review-Types-and-Programming-Languages-Chapter-9-and-Chapter-11/
 https://abbaswu.github.io/2023/01/30/Paper-Review-Bi-directional-type-checking/
