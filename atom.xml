@@ -6,7 +6,7 @@
   <link href="https://abbaswu.github.io/atom.xml" rel="self"/>
   
   <link href="https://abbaswu.github.io/"/>
-  <updated>2023-03-20T03:56:54.982Z</updated>
+  <updated>2023-04-11T22:20:17.304Z</updated>
   <id>https://abbaswu.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Paper Review: Sized Types</title>
+    <link href="https://abbaswu.github.io/2023/03/25/Paper-Review-Sized-Types/"/>
+    <id>https://abbaswu.github.io/2023/03/25/Paper-Review-Sized-Types/</id>
+    <published>2023-03-25T07:00:00.000Z</published>
+    <updated>2023-04-11T22:20:17.304Z</updated>
+    
+    <content type="html"><![CDATA[<p>NOTE: This is a Paper Review for <a href="https://williamjbowman.com/teaching/2022/w2/cpsc539b/">Topics in Programming Languages: Type Systems</a>. The original paper can be found <a href="https://doi.org/10.1145/237721.240882">here</a>.</p><h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><p>You can check the presentation that I made for this paper <a href="https://github.com/abbaswu/sized-types-presentation">in this GitHub repository</a>.</p><h1 id="Critique"><a href="#Critique" class="headerlink" title="Critique"></a>Critique</h1><p>Although I liked the idea of Sized Types proposed in the motivation, this paper was difficult for me to grasp, and after spending days reading it, there are still sections which I am confused about. I have summarized my understanding of this paper in the uploaded PDF, and I will discuss my thoughts here.</p><ol><li>I really like the idea of Sized Types that they can be used to prove data computations terminate and codata computations are productive using the same formalization.</li><li>Apparently, the requirement that size indexes in Sized Types be natural number size variables, the special index $\omega$, or linear functions of the size variables facilitates generating constraints in the type checking algorithm that can be solved by a constraint solver (e.g. an SMT solver). Although this may lead to overapproximation in certain scenarions (for example, representing the type of the factorial function), over all, I consider it to be a good balance point between expressiveness and usability.</li><li>3.2 Semantics of Expressions, 3.3 The Universe of Types, 3.4 Continuity and Ordinals, 3.5 Semantics of Types, and 3.7 $\omega$-Types used a lot of concepts before properly introducing them, and I couldn’t understand this part.</li><li>The example presented to demonstrate the type checking algorithm involves generating constraints. However, only the generated constraints are presented, while how the constraints are generated and what each symbol in the constraints stand for with regards to the aforementioned AST nodes is unknown.</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;NOTE: This is a Paper Review for &lt;a href=&quot;https://williamjbowman.com/teaching/2022/w2/cpsc539b/&quot;&gt;Topics in Programming Languages: Type Sy</summary>
+      
+    
+    
+    
+    <category term="Paper Review" scheme="https://abbaswu.github.io/categories/Paper-Review/"/>
+    
+    <category term="Topics in Programming Languages: Type Systems" scheme="https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Type-Systems/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Paper Review: Refinement Types</title>
@@ -36,6 +60,32 @@
     <category term="Paper Review" scheme="https://abbaswu.github.io/categories/Paper-Review/"/>
     
     <category term="Topics in Programming Languages: Type Systems" scheme="https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Type-Systems/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Rapidly Prototyping Presentations Using Markdown with Marp</title>
+    <link href="https://abbaswu.github.io/2023/03/17/Rapidly-Prototyping-Presentations-Using-Markdown-with-Marp/"/>
+    <id>https://abbaswu.github.io/2023/03/17/Rapidly-Prototyping-Presentations-Using-Markdown-with-Marp/</id>
+    <published>2023-03-17T07:00:00.000Z</published>
+    <updated>2023-04-11T22:24:04.224Z</updated>
+    
+    <content type="html"><![CDATA[<hr><ul><li>In the need to create a <em>decent</em>, <em>academic</em> presentation <em>fast</em>?</li><li>LaTeX overly verbose?</li><li>No time to spend on adjusting style?</li><li>Have notes written in Markdown?</li></ul><p>The solution: create presentations with Markdown using Marp!</p><p>Source code and compiled PDF of the presentation for “Rapidly Prototyping Presentations Using Markdown with Marp” presented at the SPL Workshop 2023W2 is available <a href="https://github.com/abbaswu/rapidly-prototyping-presentations-using-markdown-with-marp">in this GitHub repository</a>.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;In the need to create a &lt;em&gt;decent&lt;/em&gt;, &lt;em&gt;academic&lt;/em&gt; presentation &lt;em&gt;fast&lt;/em&gt;?&lt;/li&gt;
+&lt;li&gt;LaTeX overly verbose?&lt;/li&gt;
+&lt;li</summary>
+      
+    
+    
+    
+    <category term="Code" scheme="https://abbaswu.github.io/categories/Code/"/>
     
     
   </entry>
@@ -433,54 +483,6 @@
     <updated>2022-12-19T18:52:48.788Z</updated>
     
     <content type="html"><![CDATA[<p>NOTE: This is a Paper Review for <a href="https://www.carolemieux.com/teaching/CPSC539L_2022w1.html">Topics in Programming Languages: Automated Testing, Bug Detection, and Program Analysis</a>. The original paper can be found <a href="https://doi.org/10.1145/3213846.3213849">here</a>.</p><h1 id="Summary-of-the-Paper"><a href="#Summary-of-the-Paper" class="headerlink" title="Summary of the Paper"></a>Summary of the Paper</h1><p>The authors propose a methodology to detect out-of-bound array accesses statically. They first define that criteria that ideal techniques for detecting out-of-bound array accesses should satisfy, before analyzing the insufficiency of existing academic and industrial approaches, and presenting their own approach, Index Checker, implemented for Java.</p><p>Index Checker reduces checking array bonds to identifying 7 kinds of knowledge, which concern array index and array length, and form a hierarchy. It models such hierarchical knowledge as a Type System, requires the user to write “Type” Annotations at procedure boundaries, and verifies that values have the given “Type” at runtime. This is implemented using Checker Framework, an “industrial-strength, open-source tool for building Java type systems”.</p><p>The authors evaluate Index Checker on 3 large-scale, well-tested Java projects (Google Guava, JFreeChart, Plume-lib), and compare Index Checker with 3 other approaches (FindBugs, KeY, and Clousot), proving the effectiveness of Index Checker (scalability, finding bugs in well-tested programs, and low false positive rate). They also assess the burden of writing type annotations for Index Checker.</p><h1 id="Questions"><a href="#Questions" class="headerlink" title="Questions"></a>Questions</h1><ul><li>What is the rationale behind the 7 kinds of knowledge concerning array index and array length proposed in the paper?</li><li>I am not very familiar with Type Theory, which may have impeded my understanding of the value of the paper. What are the benefits of using Type Systems and Type Inference, and using Type Annotations to capture known constraints? Is it just to leverage the power of Checker Framework, an “industrial-strength, open-source tool for building Java type systems”, for sound inference? Or are there any further benefits?</li><li>No matter what the benefits are, from this paper, modeling hierarchical knowledge as a Type System, using Type Annotations to capture known constraints, and using Type Inference to verify such constraints sounds like a very innovative technique with many potential use cases. Have there been any other applications of such a technique?</li></ul><hr><h1 id="Feedback-from-the-Class-Discussion"><a href="#Feedback-from-the-Class-Discussion" class="headerlink" title="Feedback from the Class Discussion"></a>Feedback from the Class Discussion</h1><p>The hierarchy of knowledge is derived from Exploratory Data Analysis (trying stuff until it works, see Section 2.8).</p><p>“Subtype” is a kind of Comparable Partial Ordering (‘&lt;’). The Types in the Bottom have more information, while the Types in the Top have less information.</p><p>In Java, aside from Inheritance, another form of Subtyping is Function Subtyping. e.g. Comparator (to compare two Dog’s we can pass a function that compares two Animal’s) the inputs can be more general types.</p><p>Rules define what to do when a Pattern is encountered; however, it takes a (nontrivial) search to determine the order to apply the rules.</p><p>Fixed Point: Convergence of Information.</p><p>Reach a Fixed Point: Iterate until Convergence.</p><p>The Paper uses Subtyping to implement Widening.</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;NOTE: This is a Paper Review for &lt;a href=&quot;https://www.carolemieux.com/teaching/CPSC539L_2022w1.html&quot;&gt;Topics in Programming Languages: Aut</summary>
-      
-    
-    
-    
-    <category term="Paper Review" scheme="https://abbaswu.github.io/categories/Paper-Review/"/>
-    
-    <category term="Topics in Programming Languages: Automated Testing, Bug Detection, and Program Analysis" scheme="https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Automated-Testing-Bug-Detection-and-Program-Analysis/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Paper Review: Modular Checking for Buffer Overflows in the Large</title>
-    <link href="https://abbaswu.github.io/2022/11/13/Paper-Review-Modular-Checking-for-Buffer-Overflows-in-the-Large/"/>
-    <id>https://abbaswu.github.io/2022/11/13/Paper-Review-Modular-Checking-for-Buffer-Overflows-in-the-Large/</id>
-    <published>2022-11-13T08:00:00.000Z</published>
-    <updated>2022-12-18T22:20:14.437Z</updated>
-    
-    <content type="html"><![CDATA[<p>NOTE: This is a Paper Review for <a href="https://www.carolemieux.com/teaching/CPSC539L_2022w1.html">Topics in Programming Languages: Automated Testing, Bug Detection, and Program Analysis</a>. The original paper can be found <a href="https://doi.org/10.1145/1134285.1134319">here</a>.</p><h1 id="Background-Information"><a href="#Background-Information" class="headerlink" title="Background Information"></a>Background Information</h1><h2 id="Datalog"><a href="#Datalog" class="headerlink" title="Datalog"></a>Datalog</h2><ul><li>Declarative Programming Language which began as a Query Language for Relational Databases, and is now used in Data Integration, Information Extraction, Program Analysis, Cloud Computing, Machine Learning, etc.</li><li>Akin to SQL in many aspects.<ul><li>Not Turing Complete.</li><li>Used as a Domain Specific Language.</li><li>No Canonical Implementation, many different Implementations exist for different Applications (c.f. SQLite, MySQL, PostgreSQL, etc. for SQL).</li></ul></li><li>Follows the ‘Logic Programming’ Paradigm.<ul><li>A Program consists of Constants, Variables, Facts, and Rules (based on First Order Logic, in a form similar to “a new Fact A is true if B, C, and D are already known to be true”).</li><li>The Execution of a Program is <em>iteratively inferring new Facts given the Rules</em>.</li><li>Maps very nicely to many problems encountered during Program Analysis.</li></ul></li></ul><h1 id="Summary-of-the-Paper"><a href="#Summary-of-the-Paper" class="headerlink" title="Summary of the Paper"></a>Summary of the Paper</h1><p>The authors proposed a Methodology for detecting possible Buffer Overflow-based Security Exploits in C code and providing developers with instant feedback during the build process. The Methodology prefers usability over accuracy, and should be used alongside other tools in a Swiss Cheese Model against Security Exploits.</p><p>First, the authors proposed a Simple Annotations Language for annotating Pointers passed as parameters to and returned from Functions, to denote Preconditions and Postconditions of Function Execution. The authors propose that for new code, annotation should be inserted manually, and code should be fully annotated before being checked in to Version Control.</p><p>For legacy codebases and&#x2F;or third-party code without such Annotations, the authors propose an Inference Engline, SALInfer, which tries to infer such Annotations, preferring Coverage over Accuracy. SALInfer supports specifying Inference Algorithms using Datalog.</p><p>Finally, the authors propose a modular checker, ESPX, which tries to infer if a program is potentially vulnerable to Buffer Overflow-based Security Exploits by statically analyzing the annotations within the program’s code. The confidence of the inference results vary based on the extent and quality of the annotations.</p><h1 id="Questions-Regarding-the-Paper"><a href="#Questions-Regarding-the-Paper" class="headerlink" title="Questions Regarding the Paper"></a>Questions Regarding the Paper</h1><ul><li>What is the relevance of such a technique to “safe” programming languages that do not allow using overflowable buffers?</li><li>The authors state that “control over annotation insertion is given to individual developers”. However, developers might be reluctant to insert Annotations, and inserting Annotations can negatively affect developer productivity. Furthermore, the quality of the inserted Annotations is not guaranteed. Last but not least, inferring Annotations for legacy codebases and&#x2F;or third-party code without such Annotations prefers Coverage over Accuracy, which may not lead to sound results. Considering all these real concerns, the practical usability of this tool is seriously compromised.</li><li>The authors did an evaluation on an unnamed Microsoft product. With little information regarding the product being disclosed, such an evaluation is far from convincing, and I suspect that there might be manipulation of some kind within the evaluation.</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;NOTE: This is a Paper Review for &lt;a href=&quot;https://www.carolemieux.com/teaching/CPSC539L_2022w1.html&quot;&gt;Topics in Programming Languages: Aut</summary>
-      
-    
-    
-    
-    <category term="Paper Review" scheme="https://abbaswu.github.io/categories/Paper-Review/"/>
-    
-    <category term="Topics in Programming Languages: Automated Testing, Bug Detection, and Program Analysis" scheme="https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Automated-Testing-Bug-Detection-and-Program-Analysis/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Paper Review: Precise Interprocedural Dataflow Analysis via Graph Reachability</title>
-    <link href="https://abbaswu.github.io/2022/11/07/Paper-Review-Precise-Interprocedural-Dataflow-Analysis-via-Graph-Reachability/"/>
-    <id>https://abbaswu.github.io/2022/11/07/Paper-Review-Precise-Interprocedural-Dataflow-Analysis-via-Graph-Reachability/</id>
-    <published>2022-11-07T08:00:00.000Z</published>
-    <updated>2022-12-19T17:03:40.947Z</updated>
-    
-    <content type="html"><![CDATA[<p>NOTE: This is a Paper Review for <a href="https://www.carolemieux.com/teaching/CPSC539L_2022w1.html">Topics in Programming Languages: Automated Testing, Bug Detection, and Program Analysis</a>. The original paper can be found <a href="https://doi.org/10.1145/199448.199462">here</a>.</p><p>To be honest, I found the paper to be almost unreadable due to it being full of unfamiliar concepts and abstract formalizations. I tried my best to do some studying into the topic so that I can understand the problem that they are trying to solve, and important aspects of their algorithm, better.</p><h1 id="Graph-Reachability"><a href="#Graph-Reachability" class="headerlink" title="Graph Reachability"></a>Graph Reachability</h1><p>Graph Reachability means whether it is possible to get from one vertex to another vertex within a graph.</p><p>In an Undirected Graph $G(V, E)$, Graph Reachability between <em>one pair of nodes</em> can be calculated using Breadth-First Search, while Graph Reachability between <em>all pair of nodes</em> can be reduced to calculating the Connected Components of the Undirected Graph, which is an efficient algorithm with $O(|V| + |E|)$ time complexity.</p><p><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Equivalentie.svg" alt="Connected Components within an Undirected Graph"></p><p>In a Directed Graph, Graph Reachability between <em>one pair of nodes</em> can also be calculated using Breadth-First Search. <strong>However, there is no efficient algorithm that can calculate Graph Reachability between <em>all pair of nodes</em> for all Directed Graphs.</strong></p><p>For <em>any</em> Directed Graph, calculating Graph Reachability between <em>all pair of nodes</em> can be reduced to calculating <strong>All Pairs Shortest Distance</strong> using the Floyd-Warshall Algorithm, which has an $O({|V|}^3)$ time complexity.</p><p>More efficient algorithms are only applicable to Planar Directed Graphs.</p><h1 id="Data-Flow-Analysis"><a href="#Data-Flow-Analysis" class="headerlink" title="Data Flow Analysis"></a>Data Flow Analysis</h1><p>Constant Propogation (determining whether variables at a given point in the program are guaranteed to have constant values) and Live Variable Analysis (determining at a given point in the program, which variables might be used before being overwritten) are two commonly encountered examples of Data Flow Analysis.</p><p>Given a program’s Control Flow Graph, Data Flow Analysis:</p><ul><li>Associates each Node of the Control Flow Graph with Information concerning the Variables within that Node (known as <em>Dataflow Fact</em>‘s, usually a Mapping between Variables and their Values or Properties)</li><li>Models the effect of executing a Node with a <em>Dataflow Function</em>.</li></ul><p>In most Data Flow Analysis problems, we take one of the following approaches to obtain the Dataflow Facts for each Node:</p><ul><li>Summarizing paths entering the Node from the Start, such as in Constant Propogation. Known as “Forward Problem”‘s.</li><li>Summarizing paths exiting the Node from the Exit, such as in Live Variable Analysis. Known as “Backward Problem”‘s.</li></ul><p>How we summarize paths is known as the <em>Confluence Operator</em>.</p><p>Data Flow Analysis problems can also be divided into “may” problems and “must” problems.</p><ul><li>In “may” problems, the Dataflow Facts for each Node include information about what may be true. An example is Live Variable Analysis, where we determine whether a variable <em>may</em> be used before being overwritten in a given point in the program.</li><li>In “must” problems, the Dataflow Facts for each Node include information about what must be true. An example is Constant Propogation, where we determine whether a variable <em>must</em> have a given value in a given point in the program.</li></ul><p>Many interesting Data Flow Analysis problems, such as Live Variable Analysis, can be modeled as GEN&#x2F;KILL problems, or bit-vector problems, in which:</p><ul><li>A set of variables, $KILL[n]$, is defined at Node $n$.</li><li>A set of variables, $GEN[n]$, is used at Node $n$.</li><li>We use Union or Intersection to summarize paths entering a Node to obtain the Dataflow Facts for the Node.</li></ul><h1 id="Interprocedural-Dataflow-Analysis"><a href="#Interprocedural-Dataflow-Analysis" class="headerlink" title="Interprocedural Dataflow Analysis"></a>Interprocedural Dataflow Analysis</h1><p>The goal of Interprocedural Dataflow Analysis is to capture an Abstraction of the Effect of calling a Procedure in Dataflow Analysis.</p><p>A naive approach to Interprocedural Dataflow Analysis is to reduce it to Intraprocedural Dataflow Analysis in some way.</p><ul><li>Procedure Inlining<ul><li>Exponentially increases the Control Flow Graph</li><li>Cannot handle recursion</li></ul></li><li>Context Sensitive Procedure Inlining<ul><li>Uses Context Information (often an Approximation of the Call Stack) to distinguish between different Calls of the same Procedure, and reduce the number of inlined Procedures.</li></ul></li></ul><hr><p>However, even after research, I have failed to understand the more complicated approaches (as well as the approaches proposed in this Paper).</p><p>I can only get the point that the author shows that many Interprocedural Dataflow Analysis problems, in which:</p><ul><li>A finite set of Dataflow Facts</li><li>Dataflow Functions distribute over the Confluence Operator (which I don’t fully understand)</li></ul><p>including GEN&#x2F;KILL problems, or bit-vector problems, can be reduced to a Graph Reachability Problem on a Directed Graph.</p><p>Furthermore, I believe the main contribution of this paper is theoretical, but what is its value in real-world Dataflow Analysis problems, especially considering that the Time Complexity of Graph Reachability Problems on Directed Graphs are high?</p><p>I honestly hope that I can get some insight into these approaches during our class on Monday. Thank you!</p><hr><h1 id="Feedback-from-the-Class-Discussion"><a href="#Feedback-from-the-Class-Discussion" class="headerlink" title="Feedback from the Class Discussion"></a>Feedback from the Class Discussion</h1><p>Some of the paper’s idea comes from Abstract Interpretation. It is nice theoretically, but it is far from implementation.</p><p>Graph Reachability in the context of Interprocedure Analysis is also known as Context-Free Language Reachability and Dyck Reachability.</p><p><strong>In the context of this paper, there are multiple Dataflow Functions, one for each Node in the Control Flow Graph. Given a Node in the Control Flow Graph, we use Pattern Matching to determine what its Dataflow Function is.</strong> Lambdas are used to represent these Dataflow Functions. Explanation for the notations: $\lambda <parameters>.&lt;return_value&gt;$ means <code>def f(&lt;parameters&gt;): return &lt;return_value&gt;</code>.</p><p>In the context of this paper, we require all Dataflow Functions to be distributive over the Meet Function (Confluence Function). This means that, given the Meet Function $\Pi$ and a Dataflow Function $f$, $f(X<del>\Pi</del>Y) &#x3D; f(X)<del>\Pi</del>f(Y)$ for any two Dataflow Facts $X, Y$. </p><p>Each Dataflow Function can be visualized using a Graph Representation. The Edges represent Dependencies between Facts of the Variables in the Old Dataflow Facts and Facts of the Variables in the New Dataflow Facts.</p><p><img src="https://picx1.zhimg.com/v2-f2b6351350543806f3a1b5f709071f78_1440w.jpg?source=172ae18b" alt="Graph Representation of Dataflow Functions, `x` is Shorthand for the Facts of `x`"></p><p>Worklist Algorithm: an Algorithm which takes Objects from a Worklist (a Queue of some sort) one at a time, processes it in some way, and perhaps further adds new Objects to the Worklist, until some Target is reached. Example: Breadth First Search.</p>]]></content>
     
     
       
