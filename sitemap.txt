@@ -1,3 +1,4 @@
+https://abbaswu.github.io/2023/06/09/Parsing-Command-line-Options-in-Shell-Scripts-Using-getopts/
 https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/03/17/Rapidly-Prototyping-Presentations-Using-Markdown-with-Marp/
 https://abbaswu.github.io/2023/03/25/Paper-Review-Sized-Types/
