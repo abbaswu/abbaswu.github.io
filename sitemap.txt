@@ -1,5 +1,8 @@
-https://abbaswu.github.io/2023/06/10/Batch-Killing-Processes-Looked-up-Through-ps-aux-grep-process_name/
-https://abbaswu.github.io/2023/06/09/Parsing-Command-line-Options-in-Shell-Scripts-Using-getopts/
+https://abbaswu.github.io/2023/07/11/Task-Parallelism-and-Data-Parallelism-Thread-Pools/
+https://abbaswu.github.io/2023/07/11/Syncing-a-Local-Directory-With-a-Remote-Directory-via-rsync/
+https://abbaswu.github.io/2023/02/16/Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/
+https://abbaswu.github.io/2023/06/09/Batch-Killing-Processes-Looked-up-Through-ps-aux-grep-process_name/
+https://abbaswu.github.io/2023/06/08/Parsing-Command-line-Options-in-Shell-Scripts-Using-getopts/
 https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/03/17/Rapidly-Prototyping-Presentations-Using-Markdown-with-Marp/
 https://abbaswu.github.io/2023/03/25/Paper-Review-Sized-Types/
@@ -10,7 +13,6 @@ https://abbaswu.github.io/2022/10/28/Python-in-a-Functional-Style-Closures-Gener
 https://abbaswu.github.io/2023/03/06/Paper-Review-How-to-make-ad-hoc-polymorphism-less-ad-hoc/
 https://abbaswu.github.io/2023/02/26/Paper-Review-Types-and-Programming-Languages-Chapter-22/
 https://abbaswu.github.io/2022/10/25/Paper-Review-ReCrash-Making-Software-Failures-Reproducible-by-Preserving-Object-States/
-https://abbaswu.github.io/2023/02/16/Easily-Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/
 https://abbaswu.github.io/2022/09/16/Understanding-the-Formulation-of-Information-Entropy/
 https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/
 https://abbaswu.github.io/2023/02/20/Displaying-Information-for-Thrown-and-Caught-Exceptions-to-the-User-in-Python/
