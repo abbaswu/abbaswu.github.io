@@ -66,8 +66,8 @@
   
   <entry>
     <title>Batch Killing Processes Looked up Through ps -aux | grep &lt;process_name&gt;</title>
-    <link href="https://abbaswu.github.io/2023/06/09/Batch-Killing-Processes-Looked-up-Through-ps-aux-grep-process_name/"/>
-    <id>https://abbaswu.github.io/2023/06/09/Batch-Killing-Processes-Looked-up-Through-ps-aux-grep-process_name/</id>
+    <link href="https://abbaswu.github.io/2023/06/10/Batch-Killing-Processes-Looked-up-Through-ps-aux-grep-process_name/"/>
+    <id>https://abbaswu.github.io/2023/06/10/Batch-Killing-Processes-Looked-up-Through-ps-aux-grep-process_name/</id>
     <published>2023-06-10T04:00:00.000Z</published>
     <updated>2023-06-10T18:33:14.919Z</updated>
     
@@ -90,8 +90,8 @@
   
   <entry>
     <title>Parsing Command-line Options in Shell Scripts Using `getopts`</title>
-    <link href="https://abbaswu.github.io/2023/06/08/Parsing-Command-line-Options-in-Shell-Scripts-Using-getopts/"/>
-    <id>https://abbaswu.github.io/2023/06/08/Parsing-Command-line-Options-in-Shell-Scripts-Using-getopts/</id>
+    <link href="https://abbaswu.github.io/2023/06/09/Parsing-Command-line-Options-in-Shell-Scripts-Using-getopts/"/>
+    <id>https://abbaswu.github.io/2023/06/09/Parsing-Command-line-Options-in-Shell-Scripts-Using-getopts/</id>
     <published>2023-06-09T04:00:00.000Z</published>
     <updated>2023-06-09T19:00:27.302Z</updated>
     
