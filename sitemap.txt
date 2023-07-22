@@ -1,3 +1,4 @@
+https://abbaswu.github.io/2023/07/22/ISSTA-ECOOP-2023-Observations-and-Gained-Insights/
 https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/07/11/Task-Parallelism-and-Data-Parallelism-Thread-Pools/
 https://abbaswu.github.io/2023/07/11/Syncing-a-Local-Directory-With-a-Remote-Directory-via-rsync/
@@ -73,3 +74,4 @@ https://abbaswu.github.io/categories/Code/Python/PySide6/
 https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Type-Systems/
 https://abbaswu.github.io/categories/Mathematics/
 https://abbaswu.github.io/categories/Code/C/
+https://abbaswu.github.io/categories/Conferences/

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://abbaswu.github.io/2023/07/22/ISSTA-ECOOP-2023-Observations-and-Gained-Insights/</loc>
+    <lastmod>2023-07-22</lastmod>
+  </url>
+  <url>
     <loc>https://abbaswu.github.io/2023/07/11/Task-Parallelism-and-Data-Parallelism-Thread-Pools/</loc>
     <lastmod>2023-07-11</lastmod>
   </url>
