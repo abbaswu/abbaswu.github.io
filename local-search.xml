@@ -107,6 +107,25 @@
   
   
   <entry>
+    <title>PNW PLSE Workshop 2023 Observations and Gained Insights</title>
+    <link href="/2023/05/10/PNW-PLSE-Workshop-2023-Observations-and-Gained-Insights/"/>
+    <url>/2023/05/10/PNW-PLSE-Workshop-2023-Observations-and-Gained-Insights/</url>
+    
+    <content type="html"><![CDATA[<h1 id="10-30-Talks"><a href="#10-30-Talks" class="headerlink" title="10:30 - Talks"></a><a href="https://sites.google.com/cs.washington.edu/pnwplseworkshop/pnw-plse-2023#h.5ebiaujbjmrk">10:30 - Talks</a></h1><h2 id="Linear-Types-for-Systems-Verification"><a href="#Linear-Types-for-Systems-Verification" class="headerlink" title="Linear Types for Systems Verification"></a><a href="https://drive.google.com/file/d/1Bv4_PnXXZfx6egG4htZNfNYES_gFhfR7/view?usp=share_link">Linear Types for Systems Verification</a></h2><p>It is a good idea to embed verification information in type system of a programming language.</p><h2 id="Verified-Program-Construction"><a href="#Verified-Program-Construction" class="headerlink" title="Verified Program Construction"></a><a href="https://drive.google.com/file/d/14XdepAsHM1ts-tp21UXAqMOEbsB8mkHG/view?usp=share_link">Verified Program Construction</a></h2><ul><li>Program verification is hard per se.<ul><li>Proofs are brittle.</li><li>Existing techniques provide poor support for commonly-used datatypes such as vectors, sets, and maps.</li><li>Partial verification is important due to the complexity of programs.</li></ul></li><li>Program verification for general-purpose programming languages and frameworks for general-purpose programming languages is tedious compared to focusing on a DSL.</li><li>The direction for program verification should be <em>verified program construction</em>.</li><li>Be aware of the pain point you are trying to solve and the day-to-day engineering reality in real-world software development.</li></ul><h1 id="13-00-Keynote-Patrick-Lam"><a href="#13-00-Keynote-Patrick-Lam" class="headerlink" title="13:00 - Keynote: Patrick Lam"></a><a href="https://sites.google.com/cs.washington.edu/pnwplseworkshop/pnw-plse-2023#h.4alvulgrtjyi">13:00 - Keynote: Patrick Lam</a></h1><h2 id="Hot-Takes-on-Machine-Learning-for-Program-Analysis"><a href="#Hot-Takes-on-Machine-Learning-for-Program-Analysis" class="headerlink" title="Hot Takes on Machine Learning for Program Analysis"></a><a href="https://drive.google.com/file/d/1cfncXsqGw9kFHwi0BBE-VO7JkA1qY8eO/view?usp=share_link">Hot Takes on Machine Learning for Program Analysis</a></h2><ul><li>A crucial step in Machine Learning for Program Analysis is deciding what things could be used as features based on experience.</li><li>Generative AI can replace junior developers doing <em>raw coding</em> instead of <em>contextual work</em>.</li></ul><h1 id="13-30-Lightning-Talks"><a href="#13-30-Lightning-Talks" class="headerlink" title="13:30 - Lightning Talks"></a><a href="https://sites.google.com/cs.washington.edu/pnwplseworkshop/pnw-plse-2023#h.m58uw7yzsis">13:30 - Lightning Talks</a></h1><h2 id="Lakeroad-Hardware-Compilation-via-Program-Synthesis"><a href="#Lakeroad-Hardware-Compilation-via-Program-Synthesis" class="headerlink" title="Lakeroad: Hardware Compilation via Program Synthesis"></a><a href="https://drive.google.com/file/d/165w2NcaRdSk_gy80TkHSQDb1z3yLnxyZ/view?usp=share_link">Lakeroad: Hardware Compilation via Program Synthesis</a></h2><p>If you don’t use DSLs, FPGAs bring crappy performance running programs in general-purpose programming languages.</p><h2 id="Checked-C"><a href="#Checked-C" class="headerlink" title="Checked C"></a><a href="https://drive.google.com/file/d/1e8T4sz96FRtYDzqdxMM2AFEf7Cfutn7z/view?usp=share_link">Checked C</a></h2><p>Retrofitting verification into non-verified languages is an arduous task.</p><h1 id="15-15-Talks"><a href="#15-15-Talks" class="headerlink" title="15:15 - Talks"></a><a href="https://sites.google.com/cs.washington.edu/pnwplseworkshop/pnw-plse-2023#h.kl2qgin09esc">15:15 - Talks</a></h1><h2 id="An-Anti-Capitalist-Multicultural-Accessible-Programming-Language"><a href="#An-Anti-Capitalist-Multicultural-Accessible-Programming-Language" class="headerlink" title="An Anti-Capitalist, Multicultural, Accessible Programming Language"></a><a href="https://drive.google.com/file/d/1OD9XlNAPLXTtYFzFY2mpRA-gCoLWFCic/view?usp=share_link">An Anti-Capitalist, Multicultural, Accessible Programming Language</a></h2><p>An event-based language enabling time-traveling to all points in program execution history would greatly benefit debugging.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Conferences</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Paper Review: Sized Types</title>
     <link href="/2023/03/25/Paper-Review-Sized-Types/"/>
     <url>/2023/03/25/Paper-Review-Sized-Types/</url>
