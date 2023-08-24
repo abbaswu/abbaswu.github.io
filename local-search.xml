@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>On Convolutional Neural Networks and Photographic Lenses</title>
+    <link href="/2023/08/24/On-Convolutional-Neural-Networks-and-Photographic-Lenses/"/>
+    <url>/2023/08/24/On-Convolutional-Neural-Networks-and-Photographic-Lenses/</url>
+    
+    <content type="html"><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">Convolutional neural networks</a> are <a href="https://en.wikipedia.org/wiki/Camera_lens">camera lenses</a> to a computer.</p><p><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Typical_cnn.png" alt="A convolutional neural network"></p><p><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Tessar.png" alt="A camera lens"></p><p>The analogy does not stop at the point that both compress visual information:</p><ul><li>The <a href="https://www.jeremyjordan.me/convnet-architectures/">evolution of convolutional neural network architectures</a> resembles the <a href="https://en.wikipedia.org/wiki/History_of_photographic_lens_design">evolution of camera lenses</a>.</li><li>The <a href="https://analyticsindiamag.com/complete-guide-to-understanding-precision-and-recall-curves/">P-R curve</a> showing the performance of a convolutional neural network is strikingly similar to the <a href="https://www.dearsusan.net/how-to-read-mtf-curves-like-an-artist/">MTF curve</a> evaluating lens performance.</li></ul><p><img src="https://machinelearningmastery.com/wp-content/uploads/2020/01/Precision-Recall-Curve-of-a-Logistic-Regression-Model-and-a-No-Skill-Classifier2.png" alt="A P-R curve"></p><p><img src="https://photographylife.com/wp-content/uploads/2013/01/How-to-Read-MTF-Charts.png" alt="An MTF curve"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Reflections</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Timetable of Well-known Conferences in Different Subdomains of Computer Science</title>
     <link href="/2023/08/16/Timetable-of-Well-known-Conferences-in-Different-Subdomains-of-Computer-Science/"/>
     <url>/2023/08/16/Timetable-of-Well-known-Conferences-in-Different-Subdomains-of-Computer-Science/</url>

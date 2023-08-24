@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://abbaswu.github.io/2023/08/24/On-Convolutional-Neural-Networks-and-Photographic-Lenses/</loc>
+    <lastmod>2023-08-24</lastmod>
+  </url>
+  <url>
     <loc>https://abbaswu.github.io/2023/08/16/Our-Motivation-for-Maintaining-Our-Blog/</loc>
     <lastmod>2023-08-16</lastmod>
   </url>

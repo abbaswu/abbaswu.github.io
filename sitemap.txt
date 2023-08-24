@@ -1,5 +1,6 @@
-https://abbaswu.github.io/2023/08/16/Our-Motivation-for-Maintaining-Our-Blog/
 https://abbaswu.github.io/index.html
+https://abbaswu.github.io/2023/08/24/On-Convolutional-Neural-Networks-and-Photographic-Lenses/
+https://abbaswu.github.io/2023/08/16/Our-Motivation-for-Maintaining-Our-Blog/
 https://abbaswu.github.io/2023/08/16/Timetable-of-Well-known-Conferences-in-Different-Subdomains-of-Computer-Science/
 https://abbaswu.github.io/2023/05/09/PNW-PLSE-Workshop-2023-Observations-and-Gained-Insights/
 https://abbaswu.github.io/2023/07/21/ISSTA-ECOOP-2023-Observations-and-Gained-Insights/

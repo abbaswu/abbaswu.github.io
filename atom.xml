@@ -6,7 +6,7 @@
   <link href="https://abbaswu.github.io/atom.xml" rel="self"/>
   
   <link href="https://abbaswu.github.io/"/>
-  <updated>2023-08-16T22:03:49.788Z</updated>
+  <updated>2023-08-24T14:04:41.628Z</updated>
   <id>https://abbaswu.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>On Convolutional Neural Networks and Photographic Lenses</title>
+    <link href="https://abbaswu.github.io/2023/08/24/On-Convolutional-Neural-Networks-and-Photographic-Lenses/"/>
+    <id>https://abbaswu.github.io/2023/08/24/On-Convolutional-Neural-Networks-and-Photographic-Lenses/</id>
+    <published>2023-08-24T07:00:00.000Z</published>
+    <updated>2023-08-24T14:04:41.628Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">Convolutional neural networks</a> are <a href="https://en.wikipedia.org/wiki/Camera_lens">camera lenses</a> to a computer.</p><p><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Typical_cnn.png" alt="A convolutional neural network"></p><p><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Tessar.png" alt="A camera lens"></p><p>The analogy does not stop at the point that both compress visual information:</p><ul><li>The <a href="https://www.jeremyjordan.me/convnet-architectures/">evolution of convolutional neural network architectures</a> resembles the <a href="https://en.wikipedia.org/wiki/History_of_photographic_lens_design">evolution of camera lenses</a>.</li><li>The <a href="https://analyticsindiamag.com/complete-guide-to-understanding-precision-and-recall-curves/">P-R curve</a> showing the performance of a convolutional neural network is strikingly similar to the <a href="https://www.dearsusan.net/how-to-read-mtf-curves-like-an-artist/">MTF curve</a> evaluating lens performance.</li></ul><p><img src="https://machinelearningmastery.com/wp-content/uploads/2020/01/Precision-Recall-Curve-of-a-Logistic-Regression-Model-and-a-No-Skill-Classifier2.png" alt="A P-R curve"></p><p><img src="https://photographylife.com/wp-content/uploads/2013/01/How-to-Read-MTF-Charts.png" alt="An MTF curve"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Convolutional_neural_network&quot;&gt;Convolutional neural networks&lt;/a&gt; are &lt;a href=&quot;https://en.wikipedia.</summary>
+      
+    
+    
+    
+    <category term="Reflections" scheme="https://abbaswu.github.io/categories/Reflections/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Timetable of Well-known Conferences in Different Subdomains of Computer Science</title>
@@ -456,30 +478,6 @@
       
       
     <summary type="html">&lt;h1 id=&quot;Summary&quot;&gt;&lt;a href=&quot;#Summary&quot; class=&quot;headerlink&quot; title=&quot;Summary&quot;&gt;&lt;/a&gt;Summary&lt;/h1&gt;&lt;p&gt;Chapters 13 and 14 of “Types and Programming Langu</summary>
-      
-    
-    
-    
-    <category term="Paper Review" scheme="https://abbaswu.github.io/categories/Paper-Review/"/>
-    
-    <category term="Topics in Programming Languages: Type Systems" scheme="https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Type-Systems/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Paper Review: Bi-directional type checking</title>
-    <link href="https://abbaswu.github.io/2023/01/30/Paper-Review-Bi-directional-type-checking/"/>
-    <id>https://abbaswu.github.io/2023/01/30/Paper-Review-Bi-directional-type-checking/</id>
-    <published>2023-01-30T08:00:00.000Z</published>
-    <updated>2023-02-01T20:51:56.304Z</updated>
-    
-    <content type="html"><![CDATA[<p>NOTE: This is a Paper Review for <a href="https://williamjbowman.com/teaching/2022/w2/cpsc539b/">Topics in Programming Languages: Type Systems</a>. The original paper can be found <a href="http://www.davidchristiansen.dk/tutorials/bidirectional.pdf">here</a>.</p><h1 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h1><p>The paper first explains that except Syntax Directed Systems, Typing Rules cannot be directly translated into Algorithms for Type Checking and Type Inference. It presents a motivating example of this using a Simply Typed Lambda Calculus having Bool and Function as Types and Bool Constants, Variables, Function Abstractions, Function Applications, and Conditional Expressions as Terms, in which the Typing Rule for Function Abstractions cannot be directly translated into a Function for Type Inference.</p><p>It then presents Bidirectional Typing as a remedy to this problem. It explains what Bidirectional Typing is, discusses its advantage, and adds Bidirectional Typing into the previously presented Simply Typed Lambda Calculus, presenting how Bidirectional Typing works during the process.</p><p>Finally, it discusses the limitations of Bidirectional Typing and presents academic literature for further reading.</p><h1 id="Critique"><a href="#Critique" class="headerlink" title="Critique"></a>Critique</h1><p>Overall, I believe this paper is written very well, as I can grasp most of it after reading it. I will summarize my takeaways from this paper before presenting some questions and comments.</p><h2 id="My-Takeaways-From-This-Paper"><a href="#My-Takeaways-From-This-Paper" class="headerlink" title="My Takeaways From This Paper"></a>My Takeaways From This Paper</h2><h3 id="What-Bidirectional-Typing-Is"><a href="#What-Bidirectional-Typing-Is" class="headerlink" title="What Bidirectional Typing Is"></a>What Bidirectional Typing Is</h3><p>Bidirectional Typing splits each Typing Rule $\Gamma \vdash t: T$ into:</p><ul><li>An Inference Rule $\Gamma \vdash t \Rightarrow T$, which <em>infers</em> $t$’s type to be $T$ in Context $\Gamma$.</li><li>A Type Checking Rule $\Gamma \vdash t \Leftarrow T$, which <em>checks</em> $t$’s type to be $T$ in Context $\Gamma$.</li></ul><p>The Inference Rules and Type Checking Rules would work together and call each other.</p><h3 id="Advantages-of-Bidirectional-Typing"><a href="#Advantages-of-Bidirectional-Typing" class="headerlink" title="Advantages of Bidirectional Typing"></a>Advantages of Bidirectional Typing</h3><ul><li>Makes general Typing Rules more Syntax Directed, thus, simplifying implementing Algorithms for Type Checking and Type Inference.</li><li>Requires relatively few additional Type Annotations.</li><li>Produces good error messages that report where the error occurs.</li></ul><h3 id="Limitations-of-Bidirectional-Typing"><a href="#Limitations-of-Bidirectional-Typing" class="headerlink" title="Limitations of Bidirectional Typing"></a>Limitations of Bidirectional Typing</h3><ul><li>Variables in a Derivation can no longer be replaced by the Derivation for a Term of the same Type. This is because Bidirectional Typing uses Inference Mode to check Variables but uses Checking Mode to check many other Terms.</li><li>In some situations, explicit Type Annotations may need to be written within complex Terms, such as a direct Application of a Function Abstraction, like <code>(λ b . if b then false else true) true: Bool</code></li></ul><h2 id="Questions-and-Comments"><a href="#Questions-and-Comments" class="headerlink" title="Questions and Comments"></a>Questions and Comments</h2><ul><li>Page 8 mentions, “remember that the derivation, like the bidirectional typing rules, should be read bottom-to-top and left-to-right.” However, Inference Rules have the form of $\frac{Premise}{Conclusion}$. So, why should the derivation be read from Conclusion to Premise?</li><li>What are the meanings of the small-step rule $\frac{}{t : T \rightarrow t}$ and the large-step rule $\frac{t \Downarrow t’}{t : T \Downarrow t’}$ on Page 8?</li><li>I believe explicit Type Annotations should be enforced for the Parameters within Function Abstractions, such as <code>(λ b: Bool . if b then false else true)</code> instead of <code>(λ b . if b then false else true)</code>.<ul><li>This aligns with real-world programming languages (C++, Java, Rust, Swift, Haskell, etc.)</li><li>This increases readability.</li><li>This simplifies both the Typing Rules and the Inference Rules and Type Checking Rules of Bidirectional Typing.</li></ul></li></ul><h1 id="Feedback-from-the-Class-Discussion"><a href="#Feedback-from-the-Class-Discussion" class="headerlink" title="Feedback from the Class Discussion"></a>Feedback from the Class Discussion</h1><p>Small Step Semantics, represented using $\rightarrow$’s, depict <strong>one step in Evaluation</strong>. For example, if $e$ is $true$ itself, $\text{if}: e : \text{then} : e_1 : \text{else} : e_2$ can be Evaluated <strong>in one step</strong> to $e_1$. This can be represented using $\frac{e \rightarrow true}{\text{if}: e : \text{then} : e_1 : \text{else} : e_2 \rightarrow e_1}$</p><p>Big Step Semantics, represented using $\Downarrow$’s, depict <strong>Reducing a Subexpression to a Value through several Small Steps</strong>. For example, if $e$ is a Subexpression that can be Reduced to $true$ after several Small Steps, $\text{if}: e : \text{then} : e_1 : \text{else} : e_2$ can be Reduced to $e_1$ <strong>after several Small Steps</strong>. This can be represented using $\frac{e \Downarrow true}{\text{if}: e : \text{then} : e_1 : \text{else} : e_2 \Downarrow e_1}$.</p><p>Syntax Directed means a one-to-one correspondence between the Type of the Term and the Syntax (Derivation of the Grammar Rules) of the Term.</p><p>There is no precise definition for Bidirectional Typing. Instead, Bidirectional Typing points a direction toward implementing a Type Inference&#x2F;Type Checking Algorithm.</p><p>In Bidirectional Typing, we prefer to start from Inference Mode because if we can Infer the Type of a Term, we can Check the Type of the Term, while Checking falls back on Inference.</p><p>Why is there only a Checking Rule and no Inference Rule for <code>if t then t else t</code>?</p><ul><li>This gives better error messages.<ul><li>Should the Terms in the <code>then</code> branch and the <code>else</code> branch have different types, it is possible to give an error message directly stating this information.</li><li>If an Inference Rule had been proposed instead, it would blame one branch for having a wrong type, which may be confusing and go against programmer intent.</li></ul></li></ul><p>We can read Typing Rules either from top to bottom or from bottom to top, with slightly different interpretations.</p><ul><li>Reading from top to bottom describes how to use the information for Type Checking.</li><li>Reading from bottom to top describes how a Type Inference Algorithm works, e.g., what needs to be Checked to Infer the Type of a Term.</li></ul><p>From a historical perspective, there are two Design Philosophies for Type Systems.</p><ul><li>The first is to augment a Programming Language with more information, such as C which uses it to determine how much space a variable would take up in memory.</li><li>The second is to express programmer intent.</li></ul><p>Type Annotations (Ascriptions) for Parameters are required for Functions that are not immediately used, such as Top Level Functions. However, it is helpful to omit Type Annotations (Ascriptions) for Parameters for immediately used Lambda Terms within Higher Order Functions.</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;NOTE: This is a Paper Review for &lt;a href=&quot;https://williamjbowman.com/teaching/2022/w2/cpsc539b/&quot;&gt;Topics in Programming Languages: Type Sy</summary>
       
     
     
