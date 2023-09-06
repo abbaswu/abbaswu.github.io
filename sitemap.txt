@@ -1,5 +1,5 @@
-https://abbaswu.github.io/2023/09/04/From-the-Fourier-Series-to-the-Fourier-Transform-to-the-Discrete-time-Fourier-Transform-Demystifying-the-Formulas/
 https://abbaswu.github.io/index.html
+https://abbaswu.github.io/2023/09/04/From-the-Fourier-Series-to-the-Fourier-Transform-to-the-Discrete-time-Fourier-Transform-Demystifying-the-Formulas/
 https://abbaswu.github.io/2023/08/24/On-Convolutional-Neural-Networks-and-Photographic-Lenses/
 https://abbaswu.github.io/2023/08/16/Our-Motivation-for-Maintaining-Our-Blog/
 https://abbaswu.github.io/2023/08/16/Timetable-of-Well-known-Conferences-in-Different-Subdomains-of-Computer-Science/
