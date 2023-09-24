@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>My Software Engineering Philosophy</title>
+    <link href="/2023/09/24/My-Software-Engineering-Philosophy/"/>
+    <url>/2023/09/24/My-Software-Engineering-Philosophy/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>If you deprive yourself of outsourcing and your competitors do not, you’re putting yourself out of business.<br>Lee Kuan Yew</p></blockquote><ul><li>Do the high-level, high-value <a href="https://en.wikipedia.org/wiki/Requirements_engineering"><strong>requirements</strong></a>, <a href="https://en.wikipedia.org/wiki/Requirements_analysis"><strong>analysis</strong></a>, and <a href="https://en.wikipedia.org/wiki/Software_design"><strong>design</strong></a> work in an <em>incremental</em> fashion while not sacrificing <em>rigor</em>.</li><li>Maximize the utilization of <em>tools</em> that make coding, testing, and operations as <em>cheap, trivial, straightforward, and error-free</em> as possible, minimizing <em>technical debt</em>, including:<ul><li>Generative AI tools like ChatGPT.</li><li>Functional Programming.</li></ul></li><li>A critique on both <a href="https://en.wikipedia.org/wiki/Waterfall_model">the waterfall model</a> and <a href="https://en.wikipedia.org/wiki/Agile_software_development">the agile model</a>.</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>Reflections</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>The Cornell, Maryland, Max Planck Pre-doctoral Research School 2023 Observations and Gained Insights</title>
     <link href="/2023/09/08/The-Cornell-Maryland-Max-Planck-Pre-doctoral-Research-School-2023-Observations-and-Gained-Insights/"/>
     <url>/2023/09/08/The-Cornell-Maryland-Max-Planck-Pre-doctoral-Research-School-2023-Observations-and-Gained-Insights/</url>
