@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://abbaswu.github.io/2023/09/30/Understanding-the-Name-Structure-and-Loss-Function-of-the-Variational-Autoencoder/</loc>
+    <lastmod>2023-10-04</lastmod>
+  </url>
+  <url>
     <loc>https://abbaswu.github.io/2023/09/24/My-Software-Engineering-Philosophy/</loc>
     <lastmod>2023-09-24</lastmod>
   </url>
