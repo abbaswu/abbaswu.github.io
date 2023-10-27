@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Giving Talks on Research: Whats and Hows</title>
+    <link href="/2023/10/27/Giving-Talks-on-Research-Whats-and-Hows/"/>
+    <url>/2023/10/27/Giving-Talks-on-Research-Whats-and-Hows/</url>
+    
+    <content type="html"><![CDATA[<hr><p>As researchers, we often need to give talks on our research, either as part of presenting our results, or as a means of pitching our aspirations for the future. In this talk, inspired by ideas presented by Derek Dreyer at CMMRS 2023, Simon Peyton Jones at ICFP PLSE 2023, Finn Hacket and Robert Xiao at “Workshop on Presentation Skills”, and my personal experiences, I will present the high-level “whats” an ideal talk should be like, and the low-level “hows” along the path of actually preparing and giving such talks.</p><p>Source code and compiled PDF of the presentation for “Giving Talks on Research: Whats and Hows” presented at the Systopia Reading Group Oct 27, 2023 is available <a href="https://github.com/abbaswu/Giving-Talks-on-Research-Whats-and-Hows/tree/main">in this GitHub repository</a>.</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Talks</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Nico Ritschel&#39;s Ph.D. Defense Summary</title>
     <link href="/2023/10/13/Nico-Ritschel-s-Ph-D-Defense-Summary/"/>
     <url>/2023/10/13/Nico-Ritschel-s-Ph-D-Defense-Summary/</url>
@@ -367,7 +386,7 @@
     
     <categories>
       
-      <category>Code</category>
+      <category>Talks</category>
       
     </categories>
     

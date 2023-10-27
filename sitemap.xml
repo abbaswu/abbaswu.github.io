@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://abbaswu.github.io/2023/10/27/Giving-Talks-on-Research-Whats-and-Hows/</loc>
+    
+    <lastmod>2023-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://abbaswu.github.io/index.html</loc>
+    
+    <lastmod>2023-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://abbaswu.github.io/2023/03/17/Rapidly-Prototyping-Presentations-Using-Markdown-with-Marp/</loc>
+    
+    <lastmod>2023-10-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://abbaswu.github.io/2023/10/13/Nico-Ritschel-s-Ph-D-Defense-Summary/</loc>
     
     <lastmod>2023-10-18</lastmod>
@@ -21,15 +48,6 @@
   
   <url>
     <loc>https://abbaswu.github.io/2023/09/08/The-Cornell-Maryland-Max-Planck-Pre-doctoral-Research-School-2023-Observations-and-Gained-Insights/</loc>
-    
-    <lastmod>2023-10-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://abbaswu.github.io/index.html</loc>
     
     <lastmod>2023-10-08</lastmod>
     
@@ -158,15 +176,6 @@
     <loc>https://abbaswu.github.io/2023/06/08/Parsing-Command-line-Options-in-Shell-Scripts-Using-getopts/</loc>
     
     <lastmod>2023-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://abbaswu.github.io/2023/03/17/Rapidly-Prototyping-Presentations-Using-Markdown-with-Marp/</loc>
-    
-    <lastmod>2023-04-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -670,7 +679,7 @@
 
   <url>
     <loc>https://abbaswu.github.io/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -680,112 +689,119 @@
   
   <url>
     <loc>https://abbaswu.github.io/categories/Code/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Code/Computer-Networking/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Paper-Review/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Paper-Review/Advanced-Software-Engineering/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Code/Python/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Automated-Testing-Bug-Detection-and-Program-Analysis/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Code/Unix/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Planning/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Code/Python/PySide6/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Paper-Review/Topics-in-Programming-Languages-Type-Systems/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Mathematics/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Code/C/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Conferences/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Reference/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Reflections/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://abbaswu.github.io/categories/Meeting-Minutes/</loc>
-    <lastmod>2023-10-18</lastmod>
+    <lastmod>2023-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://abbaswu.github.io/categories/Talks/</loc>
+    <lastmod>2023-10-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

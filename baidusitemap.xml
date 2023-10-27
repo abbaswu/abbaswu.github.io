@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://abbaswu.github.io/2023/10/27/Giving-Talks-on-Research-Whats-and-Hows/</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
+    <loc>https://abbaswu.github.io/2023/03/17/Rapidly-Prototyping-Presentations-Using-Markdown-with-Marp/</loc>
+    <lastmod>2023-10-27</lastmod>
+  </url>
+  <url>
     <loc>https://abbaswu.github.io/2023/10/13/Nico-Ritschel-s-Ph-D-Defense-Summary/</loc>
     <lastmod>2023-10-18</lastmod>
   </url>
@@ -67,10 +75,6 @@
   <url>
     <loc>https://abbaswu.github.io/2023/06/08/Parsing-Command-line-Options-in-Shell-Scripts-Using-getopts/</loc>
     <lastmod>2023-06-09</lastmod>
-  </url>
-  <url>
-    <loc>https://abbaswu.github.io/2023/03/17/Rapidly-Prototyping-Presentations-Using-Markdown-with-Marp/</loc>
-    <lastmod>2023-04-11</lastmod>
   </url>
   <url>
     <loc>https://abbaswu.github.io/2023/03/25/Paper-Review-Sized-Types/</loc>
