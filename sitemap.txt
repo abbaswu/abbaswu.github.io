@@ -1,3 +1,4 @@
+https://abbaswu.github.io/2023/03/01/Type-Theoretic-Constructs-in-CXX/
 https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/11/05/Sarah-Chasins-Works-on-PL-and-HCI/
 https://abbaswu.github.io/2022/10/18/Paper-Reading-Software-tools-to-facilitate-research-programming/
@@ -62,7 +63,6 @@ https://abbaswu.github.io/2023/07/11/Syncing-a-Local-Directory-With-a-Remote-Dir
 https://abbaswu.github.io/2023/02/16/Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/
 https://abbaswu.github.io/2023/06/09/Batch-Killing-Processes-Looked-up-Through-ps-aux-grep-process_name/
 https://abbaswu.github.io/2023/06/08/Parsing-Command-line-Options-in-Shell-Scripts-Using-getopts/
-https://abbaswu.github.io/2023/03/01/Understanding-Lambda-Calculus-Through-CXX/
 https://abbaswu.github.io/2022/10/28/Python-in-a-Functional-Style-Closures-Generators-and-Coroutines/
 https://abbaswu.github.io/2022/09/16/Understanding-the-Formulation-of-Information-Entropy/
 https://abbaswu.github.io/2022/10/20/Personal-Website-Design-Considerations/
