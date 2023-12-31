@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://abbaswu.github.io/2023/12/31/Paper-Reading-The-Ph-D-Grind/</loc>
+    <lastmod>2023-12-31</lastmod>
+  </url>
+  <url>
+    <loc>https://abbaswu.github.io/2023/09/30/Understanding-the-Name-Structure-and-Loss-Function-of-the-Variational-Autoencoder/</loc>
+    <lastmod>2023-12-30</lastmod>
+  </url>
+  <url>
     <loc>https://abbaswu.github.io/2023/12/24/Linear-Regression-Ridge-Regression-Lasso-Regression-and-Kernel-Ridge-Regression/</loc>
     <lastmod>2023-12-25</lastmod>
   </url>
@@ -178,10 +186,6 @@
   </url>
   <url>
     <loc>https://abbaswu.github.io/2022/09/16/Understanding-the-Formulation-of-Information-Entropy/</loc>
-    <lastmod>2023-11-06</lastmod>
-  </url>
-  <url>
-    <loc>https://abbaswu.github.io/2023/09/30/Understanding-the-Name-Structure-and-Loss-Function-of-the-Variational-Autoencoder/</loc>
     <lastmod>2023-11-06</lastmod>
   </url>
   <url>
