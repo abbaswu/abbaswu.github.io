@@ -1,6 +1,6 @@
+https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/12/31/Paper-Reading-The-Ph-D-Grind/
 https://abbaswu.github.io/2023/09/30/Understanding-the-Name-Structure-and-Loss-Function-of-the-Variational-Autoencoder/
-https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/12/24/Linear-Regression-Ridge-Regression-Lasso-Regression-and-Kernel-Ridge-Regression/
 https://abbaswu.github.io/2023/03/01/Type-Theoretic-Constructs-in-CXX/
 https://abbaswu.github.io/2023/11/05/Sarah-Chasins-Works-on-PL-and-HCI/
