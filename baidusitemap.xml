@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://abbaswu.github.io/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/</loc>
+    <lastmod>2024-01-03</lastmod>
+  </url>
+  <url>
+    <loc>https://abbaswu.github.io/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/</loc>
+    <lastmod>2024-01-03</lastmod>
+  </url>
+  <url>
+    <loc>https://abbaswu.github.io/2023/07/11/Syncing-a-Local-Directory-With-a-Remote-Directory-via-rsync/</loc>
+    <lastmod>2024-01-03</lastmod>
+  </url>
+  <url>
+    <loc>https://abbaswu.github.io/2023/02/16/Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/</loc>
+    <lastmod>2024-01-03</lastmod>
+  </url>
+  <url>
     <loc>https://abbaswu.github.io/2023/12/31/Paper-Reading-The-Ph-D-Grind/</loc>
     <lastmod>2024-01-01</lastmod>
   </url>
@@ -165,14 +181,6 @@
     <lastmod>2023-11-06</lastmod>
   </url>
   <url>
-    <loc>https://abbaswu.github.io/2023/02/16/Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/</loc>
-    <lastmod>2023-11-06</lastmod>
-  </url>
-  <url>
-    <loc>https://abbaswu.github.io/2023/07/11/Syncing-a-Local-Directory-With-a-Remote-Directory-via-rsync/</loc>
-    <lastmod>2023-11-06</lastmod>
-  </url>
-  <url>
     <loc>https://abbaswu.github.io/2023/07/11/Task-Parallelism-and-Data-Parallelism-Thread-Pools/</loc>
     <lastmod>2023-11-06</lastmod>
   </url>
@@ -190,10 +198,6 @@
   </url>
   <url>
     <loc>https://abbaswu.github.io/2023/02/18/Using-ffmpeg-to-Manipulate-Video-Files/</loc>
-    <lastmod>2023-11-06</lastmod>
-  </url>
-  <url>
-    <loc>https://abbaswu.github.io/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/</loc>
     <lastmod>2023-11-06</lastmod>
   </url>
   <url>
@@ -282,10 +286,6 @@
   </url>
   <url>
     <loc>https://abbaswu.github.io/2023/06/10/Batch-Killing-Processes-Looked-up-Through-ps-aux-grep-process_name/</loc>
-    <lastmod>2023-11-06</lastmod>
-  </url>
-  <url>
-    <loc>https://abbaswu.github.io/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/</loc>
     <lastmod>2023-11-06</lastmod>
   </url>
   <url>

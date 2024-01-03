@@ -1,3 +1,7 @@
+https://abbaswu.github.io/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/
+https://abbaswu.github.io/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/
+https://abbaswu.github.io/2023/07/11/Syncing-a-Local-Directory-With-a-Remote-Directory-via-rsync/
+https://abbaswu.github.io/2023/02/16/Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/
 https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/12/31/Paper-Reading-The-Ph-D-Grind/
 https://abbaswu.github.io/2023/09/30/Understanding-the-Name-Structure-and-Loss-Function-of-the-Variational-Autoencoder/
@@ -40,14 +44,11 @@ https://abbaswu.github.io/2023/10/08/Pre-MICCAI-Workshop-UBC-Observations-and-Ga
 https://abbaswu.github.io/2022/10/28/Python-in-a-Functional-Style-Closures-Generators-and-Coroutines/
 https://abbaswu.github.io/2023/03/17/Rapidly-Prototyping-Presentations-Using-Markdown-with-Marp/
 https://abbaswu.github.io/2022/12/31/Social-Media-Strategy-tentative/
-https://abbaswu.github.io/2023/02/16/Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/
-https://abbaswu.github.io/2023/07/11/Syncing-a-Local-Directory-With-a-Remote-Directory-via-rsync/
 https://abbaswu.github.io/2023/07/11/Task-Parallelism-and-Data-Parallelism-Thread-Pools/
 https://abbaswu.github.io/2023/09/08/The-Cornell-Maryland-Max-Planck-Pre-doctoral-Research-School-2023-Observations-and-Gained-Insights/
 https://abbaswu.github.io/2023/08/16/Timetable-of-Well-known-Conferences-in-Different-Subdomains-of-Computer-Science/
 https://abbaswu.github.io/2022/09/16/Understanding-the-Formulation-of-Information-Entropy/
 https://abbaswu.github.io/2023/02/18/Using-ffmpeg-to-Manipulate-Video-Files/
-https://abbaswu.github.io/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/
 https://abbaswu.github.io/2023/09/04/From-the-Fourier-Series-to-the-Fourier-Transform-to-the-Discrete-time-Fourier-Transform-Demystifying-the-Formulas/
 https://abbaswu.github.io/2023/10/27/Giving-Talks-on-Research-Whats-and-Hows/
 https://abbaswu.github.io/2023/07/22/ISSTA-ECOOP-2023-Observations-and-Gained-Insights/
@@ -70,7 +71,6 @@ https://abbaswu.github.io/2022/10/29/Paper-Reading-Dynamic-Taint-Analysis-for-Au
 https://abbaswu.github.io/2022/11/27/Paper-Reading-Efficient-scalable-thread-safety-violation-detection-finding-thousands-of-concurrency-bugs-during-testing/
 https://abbaswu.github.io/2022/10/24/Paper-Reading-Evolutionary-Generation-of-Whole-Test-Suites/
 https://abbaswu.github.io/2023/06/10/Batch-Killing-Processes-Looked-up-Through-ps-aux-grep-process_name/
-https://abbaswu.github.io/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/
 https://abbaswu.github.io/2023/10/10/Conversation-with-Prof-Margo-Seltzer/
 https://abbaswu.github.io/2023/10/23/Conversation-with-Prof-Robert-Xiao/
 https://abbaswu.github.io/2022/12/31/Date-and-Time-Types-in-Python/
@@ -83,7 +83,6 @@ https://abbaswu.github.io/categories/Code/
 https://abbaswu.github.io/categories/Meeting-Minutes/
 https://abbaswu.github.io/categories/Code/Unix/
 https://abbaswu.github.io/categories/Code/Python/
-https://abbaswu.github.io/categories/Code/Computer-Networking/
 https://abbaswu.github.io/categories/Mathematics/
 https://abbaswu.github.io/categories/Talks/
 https://abbaswu.github.io/categories/Conferences/
