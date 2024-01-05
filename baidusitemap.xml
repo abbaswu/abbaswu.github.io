@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://abbaswu.github.io/2024/01/04/Resources-for-Functional-Array-Programming-for-Data-Science/</loc>
+    <lastmod>2024-01-04</lastmod>
+  </url>
+  <url>
     <loc>https://abbaswu.github.io/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/</loc>
     <lastmod>2024-01-03</lastmod>
   </url>

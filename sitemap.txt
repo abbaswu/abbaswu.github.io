@@ -1,8 +1,9 @@
+https://abbaswu.github.io/index.html
+https://abbaswu.github.io/2024/01/04/Resources-for-Functional-Array-Programming-for-Data-Science/
 https://abbaswu.github.io/2022/10/30/Various-Solutions-for-Different-Types-of-Reverse-Proxying/
 https://abbaswu.github.io/2022/12/26/Command-line-HTTP-Servers-for-Rapid-File-Sharing/
 https://abbaswu.github.io/2023/07/11/Syncing-a-Local-Directory-With-a-Remote-Directory-via-rsync/
 https://abbaswu.github.io/2023/02/16/Syncing-a-Local-Directory-With-a-Remote-Directory-via-FTP/
-https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2023/12/31/Paper-Reading-The-Ph-D-Grind/
 https://abbaswu.github.io/2023/09/30/Understanding-the-Name-Structure-and-Loss-Function-of-the-Variational-Autoencoder/
 https://abbaswu.github.io/2023/12/24/Linear-Regression-Ridge-Regression-Lasso-Regression-and-Kernel-Ridge-Regression/

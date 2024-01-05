@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Resources for Functional Array Programming for Data Science</title>
+    <link href="/2024/01/04/Resources-for-Functional-Array-Programming-for-Data-Science/"/>
+    <url>/2024/01/04/Resources-for-Functional-Array-Programming-for-Data-Science/</url>
+    
+    <content type="html"><![CDATA[<h1 id="functional-programming-in-r-focus-on-usability-contains-detailed-description-of-removing-for-loops">Functional Programming in R (focus on <em>usability</em>, contains detailed description of <em>removing for loops</em>)</h1><ul><li>http://modern-rstats.eu/functional-programming.html</li><li>https://appsilon.com/functional-programming-in-r-part-1/</li><li>http://adv-r.had.co.nz/Functional-programming.html</li><li>https://www.stat.umn.edu/geyer/8054/notes/functional.html</li><li>https://www.reddit.com/r/Rlanguage/comments/vxsf4p/is_r_a_functional_programming_language/</li></ul><h1 id="functional-programming-in-python-focus-on-usability-contains-detailed-description-of-removing-for-loops-broadcasting-persistent-ndarrays-jax-and-representing-multimodal-data-using-records-and-trees">Functional Programming in Python (focus on <em>usability</em>, contains detailed description of <em>removing for loops</em>, <em>broadcasting</em>, <em>persistent ndarrays (JAX)</em> and <em>representing multimodal data using records and trees</em>)</h1><ul><li>https://realpython.com/numpy-array-programming/</li><li>https://jax.readthedocs.io/en/latest/jax-101/07-state.html</li><li>https://github.com/docarray/docarray</li><li>https://jax.readthedocs.io/en/latest/pytrees.html</li></ul><h1 id="scientific-computing-in-ocaml-focus-on-ocaml-comprehensive-not-necessarily-pure">Scientific Computing in OCaml (focus on <em>OCaml</em>, comprehensive, not necessarily pure)</h1><ul><li>https://link.springer.com/book/10.1007/978-3-030-97645-3</li></ul><h1 id="functional-array-programming-per-se-focus-on-theory---rank-polymorphism-and-performance">Functional Array Programming Per Se (focus on <em>theory</em> - <em>rank polymorphism</em> and <em>performance</em>)</h1><ul><li>https://github.com/f5devcentral/shapeRank</li><li>https://prl.khoury.northeastern.edu/blog/2017/05/04/rank-polymorphism/</li><li>https://futhark-lang.org/publications.html</li></ul><h1 id="related-topics">Related Topics</h1><h2 id="arrays-vs.-linked-lists-in-functional-programming">Arrays vs. Linked Lists in Functional Programming</h2><ul><li>https://www.reddit.com/r/haskell/comments/hvxqzz/is_it_unfunctional_to_use_direct_access_arrays/</li></ul><h2 id="data-access-patterns">Data Access Patterns</h2><ul><li>http://www.nic.uoregon.edu/~khuck/ts/acumem-report/manual_html/ch05s02.html</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>Code</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Paper Reading: The Ph.D. Grind</title>
     <link href="/2023/12/31/Paper-Reading-The-Ph-D-Grind/"/>
     <url>/2023/12/31/Paper-Reading-The-Ph-D-Grind/</url>
