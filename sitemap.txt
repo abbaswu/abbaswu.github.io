@@ -1,3 +1,4 @@
+https://abbaswu.github.io/2024/01/24/Paper-Reading-Asynchronous-Functional-Reactive-Programming-for-GUIs/
 https://abbaswu.github.io/index.html
 https://abbaswu.github.io/2024/01/04/Resources-for-Functional-Array-Programming-for-Data-Science/
 https://abbaswu.github.io/2023/12/31/Strategies-Tactics-and-Mindset-Learned-from-The-Ph-D-Grind/
@@ -97,3 +98,4 @@ https://abbaswu.github.io/categories/Paper-Reading/Research-Programming/
 https://abbaswu.github.io/categories/Planning/
 https://abbaswu.github.io/categories/Reference/
 https://abbaswu.github.io/categories/Code/C/
+https://abbaswu.github.io/categories/Paper-Reading/PL-Reading-Group/
