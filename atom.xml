@@ -6,7 +6,7 @@
   <link href="https://abbaswu.github.io/atom.xml" rel="self"/>
   
   <link href="https://abbaswu.github.io/"/>
-  <updated>2024-02-29T19:50:56.635Z</updated>
+  <updated>2024-05-30T14:10:48.730Z</updated>
   <id>https://abbaswu.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>On doing things with others</title>
+    <link href="https://abbaswu.github.io/2024/05/30/On-Doing-Things-with-Others/"/>
+    <id>https://abbaswu.github.io/2024/05/30/On-Doing-Things-with-Others/</id>
+    <published>2024-05-30T07:00:00.000Z</published>
+    <updated>2024-05-30T14:10:48.730Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="original-chinese">Original (Chinese)</h1><p>和别人一起做事的时候，如果遇到了某件说好了要做的事别人不愿意开始做，我们不应该面露难色，变得焦虑、愤怒；我们更好的做法应该是给对方一个善意的提醒，然后重新规划时间——这时候规划的时间必须具体，不能是大而化之的“之后”“再过几天”等。</p><h1 id="translation-deepl.com">Translation (DeepL.com)</h1><p>When doing things with others, if we encounter a certain thing that we said we would do that others are not willing to start doing, we should not look embarrassed, become anxious and angry; our better approach should be to give each other a kind reminder, and then re-planning time - this time the planning time must be specific, not a big and generalized "afterward," "a few more days," etc.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;original-chinese&quot;&gt;Original (Chinese)&lt;/h1&gt;
+&lt;p&gt;和别人一起做事的时候，如果遇到了某件说好了要做的事别人不愿意开始做，我们不应该面露难色，变得焦虑、愤怒；我们更好的做法应该是给对方一个善意的提醒，然后重新规划时间——这时候规</summary>
+      
+    
+    
+    
+    <category term="Reflections" scheme="https://abbaswu.github.io/categories/Reflections/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Some thoughts on maintaining fitness habits and improving physical fitness in the future</title>
@@ -449,31 +472,6 @@
     
     
     <category term="Conferences" scheme="https://abbaswu.github.io/categories/Conferences/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Syncing a Local Directory With a Remote Directory via rsync</title>
-    <link href="https://abbaswu.github.io/2023/07/11/Syncing-a-Local-Directory-With-a-Remote-Directory-via-rsync/"/>
-    <id>https://abbaswu.github.io/2023/07/11/Syncing-a-Local-Directory-With-a-Remote-Directory-via-rsync/</id>
-    <published>2023-07-11T07:00:00.000Z</published>
-    <updated>2024-01-03T02:19:09.600Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="syncing-a-local-directory-with-a-remote-directory-via-rsync">Syncing a Local Directory With a Remote Directory via rsync</h1><p><code>rsync</code> is a powerful utility for efficiently synchronizing directories between a local computer and a remote server. It achieves this synchronization by comparing file modification times and sizes, utilizing delta encoding, and optionally employing data compression to minimize network usage.</p><p>To successfully synchronize directories between two systems using rsync, you need to have rsync installed on both the local and remote machines. Additionally, the remote machine should be accessible from the local machine via SSH, enabling the local machine to invoke the remote machine's rsync and determine which parts of local files need to be transferred.</p><p>The rsync command-line syntax is similar to that of cp and scp. The following command-line options are commonly used:</p><ul><li><code>-e</code>: Specifies the command to establish an SSH connection before the <code>username@domain</code> section. This option allows you to <em>customize SSH behavior</em>, such as using specific ports or providing a PEM file (e.g., <code>ssh -i SSH-key.pem</code>).</li><li><code>-r</code> (recursive): Used for syncing directories, similar to <code>cp</code> and <code>scp</code>.</li><li><code>-v</code> (verbose): Lists files being transferred during synchronization.</li><li><code>-z</code>: Enables additional data compression for improved network usage.</li></ul><p>When specifying the source directory and the destination directory, <em>keep the following points in mind</em>:</p><ul><li>A local directory can be represented using either a relative or absolute path.</li><li>A remote directory is represented using the <code>username@domain:&lt;absolute path on the remote machine&gt;</code> notation, similar to <code>scp</code>.</li><li>A source directory <em>must</em> end with a trailing slash.</li><li>A destination directory <em>must not</em> end with a trailing slash.</li></ul><p>Here's an example that illustrates how to sync the local directory <code>TypeWriter_dataset</code> to the remote directory <code>/home/ubuntu/TypeWriter_dataset</code> with additional data compression. This assumes connecting to <code>ubuntu@104.171.203.254</code> via the command <code>ssh -i SSH-key.pem</code>:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">rsync \<br>-e <span class="hljs-string">&#x27;ssh -i SSH-key.pem&#x27;</span> \<br>-r -v -z \<br>TypeWriter_dataset/ \<br>ubuntu@104.171.203.254:/home/ubuntu/TypeWriter_dataset<br></code></pre></td></tr></table></figure><p>Conversely, to sync the remote directory <code>/home/ubuntu/TypeWriter_dataset</code> to the local directory <code>TypeWriter_dataset</code>:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">rsync \<br>-e <span class="hljs-string">&#x27;ssh -i SSH-key.pem&#x27;</span> \<br>-r -v -z \<br>ubuntu@104.171.203.254:/home/ubuntu/TypeWriter_dataset/ \<br>TypeWriter_dataset<br></code></pre></td></tr></table></figure><p>References:</p><ul><li>https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories</li><li>https://en.wikipedia.org/wiki/Rsync</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;syncing-a-local-directory-with-a-remote-directory-via-rsync&quot;&gt;Syncing a Local Directory With a Remote Directory via rsync&lt;/h1&gt;
-&lt;p&gt;&lt;co</summary>
-      
-    
-    
-    
-    <category term="Code" scheme="https://abbaswu.github.io/categories/Code/"/>
-    
-    <category term="Unix" scheme="https://abbaswu.github.io/categories/Code/Unix/"/>
     
     
   </entry>
