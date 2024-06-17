@@ -6,7 +6,7 @@
   <link href="https://abbaswu.github.io/atom.xml" rel="self"/>
   
   <link href="https://abbaswu.github.io/"/>
-  <updated>2024-05-30T14:10:48.730Z</updated>
+  <updated>2024-06-17T00:26:21.050Z</updated>
   <id>https://abbaswu.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Financial strategies during master&#39;s and PhD degrees (tentative)</title>
+    <link href="https://abbaswu.github.io/2024/06/16/Financial-strategies-during-master-s-and-PhD-degrees-tentative/"/>
+    <id>https://abbaswu.github.io/2024/06/16/Financial-strategies-during-master-s-and-PhD-degrees-tentative/</id>
+    <published>2024-06-16T07:00:00.000Z</published>
+    <updated>2024-06-17T00:26:21.050Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="original-chinese">Original (Chinese)</h1><ul><li>记录每月工资，跟踪每月固定必需开销（房租、订阅服务等），分配每月可变必需开销（食品百货等）、可变可选开销（衣物、旅行等）与储蓄。<ul><li>储蓄包括银行的储蓄账户和各种理财产品。<ul><li>对我们而言，各种理财产品的职责首先是对抗通货膨胀的<strong>储蓄账户</strong>，而非盈利的手段——我们是斗不过高频交易算法的。不得花过多的时间经历关注理财产品的价格变化，严格禁止各种赌博心理。</li></ul></li></ul></li><li>充分利用各种税收和学费资助的“免费”服务：<ul><li>规划好行程，充分利用公共交通，少打车。</li><li>充分利用学校提供的医疗保险；</li><li>通过学校订购的在线课程，不断提升与科研需求相辅相成的实用技能，如网页前端开发、数据科学等，并获取相应证书，既提升我们欠缺的implementation能力，又方便找实习与工作等。</li></ul></li><li>做好灵活的食品百货采货计划。<ul><li>关注超市传单；</li><li>书包中常备购物袋；</li><li>适量减少红肉采货量，适量增加鱼、蛋白粉、谷物、水果、蛋、奶采货量。</li></ul></li></ul><hr /><h1 id="translation-deepl.com">Translation (DeepL.com)</h1><ul><li>Record monthly paychecks, track monthly fixed essential expenses (rent, subscription services, etc.), and allocate monthly variable essential expenses (food, groceries, etc.) and variable optional expenses (clothing, travel, etc.) with savings.</li><li>Savings include savings accounts in banks and various financial products.</li><li>For us, the duty of various financial products is, first and foremost, an inflation-fighting <strong>savings account</strong>, not a means of profit - we can't beat high-frequency trading algorithms. We must not spend excessive time paying attention to price changes in financial products and strictly prohibit all kinds of gambling mentality.</li><li>Take advantage of tax and tuition assistance "freebies":</li><li>Plan trips well, use public transportation, and take fewer cabs.</li><li>Take advantage of the school's health insurance;</li><li>Through online courses purchased by the school, improve practical skills that complement research needs, such as web front-end development, data science, etc., and obtain the appropriate certificates to improve our lack of implementation skills and facilitate the search for internships and jobs.</li><li>Make a flexible food and grocery procurement plan.</li><li>Pay attention to supermarket flyers;</li><li>Always carry a shopping bag in your bag;</li><li>Reduce the amount of red meat and increase the amount of fish, protein powder, cereals, fruits, eggs, and milk.</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;original-chinese&quot;&gt;Original (Chinese)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;记录每月工资，跟踪每月固定必需开销（房租、订阅服务等），分配每月可变必需开销（食品百货等）、可变可选开销（衣物、旅行等）与储蓄。
+&lt;ul&gt;
+&lt;li&gt;储蓄包括银行的</summary>
+      
+    
+    
+    
+    <category term="Reflections" scheme="https://abbaswu.github.io/categories/Reflections/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>On doing things with others</title>
@@ -449,29 +475,6 @@
     
     
     <category term="Reference" scheme="https://abbaswu.github.io/categories/Reference/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ISSTA/ECOOP 2023 Observations and Gained Insights</title>
-    <link href="https://abbaswu.github.io/2023/07/22/ISSTA-ECOOP-2023-Observations-and-Gained-Insights/"/>
-    <id>https://abbaswu.github.io/2023/07/22/ISSTA-ECOOP-2023-Observations-and-Gained-Insights/</id>
-    <published>2023-07-22T07:00:00.000Z</published>
-    <updated>2023-11-06T07:31:36.165Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="mon-17-jul">Mon 17 Jul</h1><h2 id="session-1-fuzzing-at-amazon-auditorium-gates-g20">Session 1 FUZZING at Amazon Auditorium (Gates G20)</h2><h3 id="welcome-and-introductions">Welcome and Introductions</h3><p>The following reviewing criteria for workshop papers can serve as a guide for us in writing papers:</p><ul><li>Is the problem that is addressed significant for research or practice?</li><li>Are the contributions (technique, hypothesis, or evaluation) over existing work sufficient?</li><li>Is the methodology (experimental setup or protocol) specified to validate the claims or hypotheses reasonable?</li><li>Can an independent research group reproduce the results, given the proposed methodology (experimental setup)</li></ul><p>Establish significance, novelty, and soundness, even if results do not show a large performance gain. Inspect unexpected results, such as why results are negative.</p><h3 id="three-colours-of-fuzzing-reflections-and-open-challenges---cristian-cadar"><a href="https://conf.researchr.org/details/ecoop-issta-2023/fuzzing-2023/9/Three-Colours-of-Fuzzing-Reflections-and-Open-Challenges">Three Colours of Fuzzing: Reflections and Open Challenges - Cristian Cadar</a></h3><p>Why does fuzzing keep finding bugs in production software? LOTS of code is added or modified without being tested. (Covrig: A framework for the analysis of code, test, and coverage evolution in real software)</p><p>Fuzzing is not automated enough. Fuzz targets (test drivers) need to be manually specified. There is much work on improving fuzzing heuristics, but more work is required for test driver generation.</p><p>An ideal test case should benefit quality assurance, debugging aid, and documentation. They should <em>target human users</em>, and be small, fast, readable, and well-documented. However, automatically generated test suites, such as those generated by fuzzers, need to be improved in these aspects. They achieve high code coverage, excel at finding generic/crash bugs in general software that <em>may not be very realistic</em> (<a href="https://www.manuelrigger.at/preprints/NoREC.pdf">assertion faults, crashes, undefined behavior</a>) but do not achieve high feature coverage and are poor at detecting logical bugs in software for specific domains.</p><p>On the other hand, such fuzzing makes it appropriate for use cases outside of security and software testing that <em>require a novel search to find diverse failing inputs, corner cases, and loopholes</em>, such as ML models and even investigating legal documents (Rohan).</p><p>Developers tend to be <em>afraid</em> of using fuzzers as they don't understand them or think of them as security tools, in contrast to a standard testing tool. Allowing fuzzing to operate at a higher declarative level and combining fuzzing with domain-specific specification languages would be beneficial.</p><p>Sound fuzzer evaluation is challenging.</p><ul><li>Well-designed experiment methodology.</li><li>Huge variance due to randomness, demanding substantial computation resources (e.g., repeat 20x, 24 hours, X fuzzers, Y programs)</li></ul><h1 id="thu-20-jul">Thu 20 Jul</h1><h2 id="keynotes-at-amazon-auditorium-gates-g20">Keynotes at Amazon Auditorium (Gates G20)</h2><p>Paper Readinging Statistics</p><ul><li>44/97 papers accepted</li><li>Round 1: 40 submitted, 17 accepted, 9 rejected, 14 resubmit</li><li>Round 2: 57 submitted (11 resubmissions), 27 accepted, 18 rejected, 12 resubmit</li></ul><h3 id="dahl-nygaard-senior-prize-safe-journeys-into-the-unknown---object-capabilities---sophia-drossopoulou"><a href="https://conf.researchr.org/details/ecoop-issta-2023/ecoop-issta-2023-keynotes/7/Dahl-Nygaard-Senior-Prize-Safe-Journeys-into-the-Unknown-Object-Capabilities">Dahl-Nygaard Senior Prize: Safe Journeys into the Unknown - Object Capabilities - Sophia Drossopoulou</a></h3><ul><li>Think of an exciting question, such as various language features, and look into it as a research question (<a href="https://link.springer.com/chapter/10.1007/3-540-45332-6_3">An Abstract Model of Java Dynamic Linking and Loading</a>, <a href="https://spiral.imperial.ac.uk/bitstream/10044/1/705/1/A%20flexible%20model%20for%20dynamic.pdf">A Flexible Model for Dynamic Linking in Java and C#</a>).</li><li>The key for program verification is to <em>develop formal models for a (subset) of a language</em>, make it small and simple, and gradually expand (<a href="https://spiral.imperial.ac.uk/handle/10044/1/95175">Java is type safe -- probably</a>).</li><li>Actively start collaborations (<a href="https://dl.acm.org/doi/10.1145/582419.582447">Ownership, encapsulation and the disjointness of type and effect</a>).</li></ul><h2 id="issta-10-test-optimizationsissta-technical-papers-at-smith-classroom-gates-g10">ISSTA 10: Test OptimizationsISSTA Technical Papers at Smith Classroom (Gates G10)</h2><h3 id="june-a-type-testability-transformation-for-improved-atg-performance"><a href="https://2023.issta.org/details/issta-2023-technical-papers/15/June-A-Type-Testability-Transformation-for-Improved-ATG-Performance">June: A Type Testability Transformation for Improved ATG Performance</a></h3><p>Automatically generating unit tests is a powerful approach to exercising complex software. However, existing methods frequently fail to deliver appropriate input values, like strings, capable of <em>bypassing domain-specific sanity checks</em>. For instance, Randoop commonly uses "hi!" as a value. (<a href="https://ieeexplore.ieee.org/abstract/document/8115617">Saying 'Hi!' is not enough: Mining inputs for effective test generation</a>)</p><h3 id="pattern-based-peephole-optimizations-with-java-jit-tests"><a href="https://2023.issta.org/details/issta-2023-technical-papers/112/Pattern-Based-Peephole-Optimizations-with-Java-JIT-Tests">Pattern-Based Peephole Optimizations with Java JIT Tests</a></h3><p>To demonstrate the advantage of JOG over hand-written peephole optimizations in terms of <em>ease of writing</em>, existing hand-written peephole optimizations are compared, and <em>number of characters and number of lines</em> are used as metrics.</p><h3 id="gpuharbor-testing-gpu-memory-consistency-at-large-experience-paper"><a href="https://2023.issta.org/details/issta-2023-technical-papers/54/GPUHarbor-Testing-GPU-Memory-Consistency-at-Large-Experience-Paper-">GPUHarbor: Testing GPU Memory Consistency at Large (Experience Paper)</a></h3><p>The tool has been implemented as <a href="https://tinyurl.com/issta-gpuharbor"><em>a Web app using WebGPU to access the GPU</em></a>, allowing the audience to <em>try it out during the talk</em>.</p><h2 id="keynote---issta24-preview---closingkeynotes-at-amazon-auditorium-gates-g20">Keynote - ISSTA'24 Preview - ClosingKeynotes at Amazon Auditorium (Gates G20)</h2><h3 id="machine-learning-for-software-engineering"><a href="https://conf.researchr.org/details/ecoop-issta-2023/ecoop-issta-2023-keynotes/1/Machine-Learning-for-Software-Engineering">Machine Learning for Software Engineering</a></h3><p>What underlies the success of machine learning for software engineering?</p><ul><li><a href="https://people.inf.ethz.ch/suz/publications/natural.pdf">The naturalness of code</a>. <code>i++</code> is predictable given <code>for (i = 0; i &lt; 10;</code>, and <code>backward()</code> is predictable given <code>loss.</code></li><li><a href="https://dl.acm.org/doi/10.1145/3338906.3340458">The bimodality of code, or code contains natural language</a>. Q. How do I get a platform-dependent new line character? A. public static String get<em>Platform</em>LineSeparator() { return System.getProperty("<em>line</em>.separator"); }</li><li><a href="http://janvitek.org/events/NEU/7580/papers/more-papers/oopsla16-dt.pdf">Code has predictable properties</a>. Given <code>... = x.weight * x.height</code>, what is the <code>???</code> in <code>... = y.weight * ???</code>?</li><li>Large amount of data (GitHub repos with code, version history, and commit logs, StackOverflow questions and answers, internal corpora in companies, etc.)</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;mon-17-jul&quot;&gt;Mon 17 Jul&lt;/h1&gt;
-&lt;h2 id=&quot;session-1-fuzzing-at-amazon-auditorium-gates-g20&quot;&gt;Session 1 FUZZING at Amazon Auditorium (Gates </summary>
-      
-    
-    
-    
-    <category term="Conferences" scheme="https://abbaswu.github.io/categories/Conferences/"/>
     
     
   </entry>
