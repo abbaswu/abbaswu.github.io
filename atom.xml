@@ -6,7 +6,7 @@
   <link href="https://abbaswu.github.io/atom.xml" rel="self"/>
   
   <link href="https://abbaswu.github.io/"/>
-  <updated>2024-06-24T17:21:37.956Z</updated>
+  <updated>2024-07-03T00:39:53.748Z</updated>
   <id>https://abbaswu.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Pay attention to the other person&#39;s easily overlooked emotional state when chatting online</title>
+    <link href="https://abbaswu.github.io/2024/07/02/Pay-Attention-to-the-Other-Person-s-Easily-Overlooked-Emotional-State-When-Chatting-Online/"/>
+    <id>https://abbaswu.github.io/2024/07/02/Pay-Attention-to-the-Other-Person-s-Easily-Overlooked-Emotional-State-When-Chatting-Online/</id>
+    <published>2024-07-02T07:00:00.000Z</published>
+    <updated>2024-07-03T00:39:53.748Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="original-chinese">Original (Chinese)</h1><p>线上聊天一定要关注对方容易被忽视的情绪状态。</p><p>与线下聊天相比，线上聊天少了很多关键的nonverbal context，其中就包括对方的情绪状态。线上聊天还是在和人说话，而不是在和人工智能说话，人的情绪状态会对聊天的走向产生极大的影响。但不是所有的人都擅于、习惯于或想要表达情绪。在这种情况下，我们极易在线上聊天的过程中，因为对方在某种我们尚不清楚的情绪的影响下，不按我们的预期聊天，而让我们做出很多误解误判。为了避免由此产生的一些不愉快的情形，我们可以：</p><ul><li>在聊天一开始的时候就去了解对方的情绪状态，如可以直接在寒暄的过程中问。</li><li>在聊天进行的过程中时刻去关注对方的情绪状态。包括时不时主动问问对方感觉如何（哪怕对方没有任何反馈或暗示），绝不能自己一个人旁若无人滔滔不绝地讲。同时也要清楚地意识到，对方的任何表达都有可能是心境的投射。我们要从中捕获尽可能多的信息来。</li></ul><h1 id="translation-deepl.com">Translation (DeepL.com)</h1><p>Pay attention to the other person's easily overlooked emotional state when chatting online.</p><p>Compared to offline chatting, online chatting has a much less critical nonverbal context, including the other person's emotional state. Online chatting is still talking to a human being, not an AI, and a person's emotional state can have a huge impact on the direction of the chat. But not all people are good at, used to, or want to express emotions. In this case, it is very easy for us to make a lot of misunderstandings and misjudgments during an online chat because the other person, under the influence of some emotion we are not yet aware of, does not chat as we expect. These misunderstandings can significantly alter the course of the conversation, leading to potential conflicts or misinterpretations. In order to avoid some unpleasant situations arising from this, we can:</p><ul><li>At the beginning of the chat, it's crucial to understand the other party's emotional state. This can be achieved by asking directly during the initial small talk.</li><li>When chatting, always consider the other party's emotional state. This includes taking the initiative to ask the other person from time to time how they are feeling (even if the other person does not have any feedback or hints) and never speaking on your own like there is no one else. It's also important to realize that any expression of the other person may be a projection of their state of mind. We need to capture as much information from it as possible.</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;original-chinese&quot;&gt;Original (Chinese)&lt;/h1&gt;
+&lt;p&gt;线上聊天一定要关注对方容易被忽视的情绪状态。&lt;/p&gt;
+&lt;p&gt;与线下聊天相比，线上聊天少了很多关键的nonverbal context，其中就包括对方的情绪状态。线上聊天还是在</summary>
+      
+    
+    
+    
+    <category term="Reflections" scheme="https://abbaswu.github.io/categories/Reflections/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Show, not tell</title>
@@ -454,28 +478,6 @@
     
     
     <category term="Mathematics" scheme="https://abbaswu.github.io/categories/Mathematics/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>On Convolutional Neural Networks and Photographic Lenses</title>
-    <link href="https://abbaswu.github.io/2023/08/24/On-Convolutional-Neural-Networks-and-Photographic-Lenses/"/>
-    <id>https://abbaswu.github.io/2023/08/24/On-Convolutional-Neural-Networks-and-Photographic-Lenses/</id>
-    <published>2023-08-24T07:00:00.000Z</published>
-    <updated>2023-11-06T07:31:36.165Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">Convolutional neural networks</a> are <a href="https://en.wikipedia.org/wiki/Camera_lens">camera lenses</a> to a computer.</p><figure><img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Typical_cnn.png" alt="" /><figcaption>A convolutional neural network</figcaption></figure><figure><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Tessar.png" alt="" /><figcaption>A camera lens</figcaption></figure><p>The analogy does not stop at the point that both compress visual information:</p><ul><li>The <a href="https://www.jeremyjordan.me/convnet-architectures/">evolution of convolutional neural network architectures</a> resembles the <a href="https://en.wikipedia.org/wiki/History_of_photographic_lens_design">evolution of camera lenses</a>.</li><li>The <a href="https://analyticsindiamag.com/complete-guide-to-understanding-precision-and-recall-curves/">P-R curve</a> showing the performance of a convolutional neural network is strikingly similar to the <a href="https://www.dearsusan.net/how-to-read-mtf-curves-like-an-artist/">MTF curve</a> evaluating lens performance.</li></ul><figure><img src="https://machinelearningmastery.com/wp-content/uploads/2020/01/Precision-Recall-Curve-of-a-Logistic-Regression-Model-and-a-No-Skill-Classifier2.png" alt="" /><figcaption>A P-R curve</figcaption></figure><figure><img src="https://photographylife.com/wp-content/uploads/2013/01/How-to-Read-MTF-Charts.png" alt="" /><figcaption>An MTF curve</figcaption></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Convolutional_neural_network&quot;&gt;Convolutional neural networks&lt;/a&gt; are &lt;a href=&quot;https://en.wikipedia.</summary>
-      
-    
-    
-    
-    <category term="Reflections" scheme="https://abbaswu.github.io/categories/Reflections/"/>
     
     
   </entry>
