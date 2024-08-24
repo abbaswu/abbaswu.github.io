@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Lessons learned from Master&#39;s thesis</title>
+    <link href="/2024/08/23/Lessons-learned-from-master-s-thesis/"/>
+    <url>/2024/08/23/Lessons-learned-from-master-s-thesis/</url>
+    
+    <content type="html"><![CDATA[<ul><li>Firmly define the research topic.</li><li>Do literature research based on keywords, never limit the scope of journals and conferences, and continue literature research even after starting the project.</li><li>Collect baselines and benchmarks as soon as possible; make sure the baselines and benchmarks are downloaded and can be run.</li><li>Focus on the NOVELTY of the core aspects; don't be perfect, and don't support all cases or possibilities.</li><li>Find a few small examples that prove the power of your novelty, and emphasize it in both the paper and the presentation.</li><li>Avoid designing overly complex rule-based systems.</li><li>With GenAI, aim to get a prototype and an illustrative presentation out as soon as possible. This will allow you to collect feedback early, empowering you to make necessary adjustments and improvements.</li><li>Use functional programming architecture that is easy to test. Conduct thorough unit testing, document the coverage, and leave traces of development step by step. This will provide a solid foundation and instill confidence in the robustness of your research.</li><li>Insert breakpoints where you're unsure how to code. Figure out what to do when encountering them, and refine the unit tests in the process.</li><li>Don't be perfect; start writing your thesis when you're almost done.</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>Reflections</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Talking back and confidence</title>
     <link href="/2024/07/07/Talking-back-and-confidence/"/>
     <url>/2024/07/07/Talking-back-and-confidence/</url>

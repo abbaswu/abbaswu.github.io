@@ -6,7 +6,7 @@
   <link href="https://abbaswu.github.io/atom.xml" rel="self"/>
   
   <link href="https://abbaswu.github.io/"/>
-  <updated>2024-07-07T19:17:13.359Z</updated>
+  <updated>2024-08-24T02:36:14.455Z</updated>
   <id>https://abbaswu.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Lessons learned from Master&#39;s thesis</title>
+    <link href="https://abbaswu.github.io/2024/08/23/Lessons-learned-from-master-s-thesis/"/>
+    <id>https://abbaswu.github.io/2024/08/23/Lessons-learned-from-master-s-thesis/</id>
+    <published>2024-08-23T04:00:00.000Z</published>
+    <updated>2024-08-24T02:36:14.455Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>Firmly define the research topic.</li><li>Do literature research based on keywords, never limit the scope of journals and conferences, and continue literature research even after starting the project.</li><li>Collect baselines and benchmarks as soon as possible; make sure the baselines and benchmarks are downloaded and can be run.</li><li>Focus on the NOVELTY of the core aspects; don't be perfect, and don't support all cases or possibilities.</li><li>Find a few small examples that prove the power of your novelty, and emphasize it in both the paper and the presentation.</li><li>Avoid designing overly complex rule-based systems.</li><li>With GenAI, aim to get a prototype and an illustrative presentation out as soon as possible. This will allow you to collect feedback early, empowering you to make necessary adjustments and improvements.</li><li>Use functional programming architecture that is easy to test. Conduct thorough unit testing, document the coverage, and leave traces of development step by step. This will provide a solid foundation and instill confidence in the robustness of your research.</li><li>Insert breakpoints where you're unsure how to code. Figure out what to do when encountering them, and refine the unit tests in the process.</li><li>Don't be perfect; start writing your thesis when you're almost done.</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;Firmly define the research topic.&lt;/li&gt;
+&lt;li&gt;Do literature research based on keywords, never limit the scope of journals and conferen</summary>
+      
+    
+    
+    
+    <category term="Reflections" scheme="https://abbaswu.github.io/categories/Reflections/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Talking back and confidence</title>
@@ -458,29 +482,6 @@
     
     
     <category term="Mathematics" scheme="https://abbaswu.github.io/categories/Mathematics/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>My Software Engineering Philosophy</title>
-    <link href="https://abbaswu.github.io/2023/09/24/My-Software-Engineering-Philosophy/"/>
-    <id>https://abbaswu.github.io/2023/09/24/My-Software-Engineering-Philosophy/</id>
-    <published>2023-09-24T07:00:00.000Z</published>
-    <updated>2023-11-06T07:31:36.165Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>If you deprive yourself of outsourcing and your competitors do not, you're putting yourself out of business. Lee Kuan Yew</p></blockquote><ul><li>Do the high-level, high-value <a href="https://en.wikipedia.org/wiki/Requirements_engineering"><strong>requirements</strong></a>, <a href="https://en.wikipedia.org/wiki/Requirements_analysis"><strong>analysis</strong></a>, and <a href="https://en.wikipedia.org/wiki/Software_design"><strong>design</strong></a> work in an <em>incremental</em> fashion while not sacrificing <em>rigor</em>.</li><li>Maximize the utilization of <em>tools</em> that make coding, testing, and operations as <em>cheap, trivial, straightforward, and error-free</em> as possible, minimizing <em>technical debt</em>, including:<ul><li>Generative AI tools like ChatGPT.</li><li>Functional Programming.</li></ul></li><li>A critique on both <a href="https://en.wikipedia.org/wiki/Waterfall_model">the waterfall model</a> and <a href="https://en.wikipedia.org/wiki/Agile_software_development">the agile model</a>.</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;If you deprive yourself of outsourcing and your competitors do not, you&#39;re putting yourself out of business. Lee Kuan Yew&lt;/p</summary>
-      
-    
-    
-    
-    <category term="Reflections" scheme="https://abbaswu.github.io/categories/Reflections/"/>
     
     
   </entry>
